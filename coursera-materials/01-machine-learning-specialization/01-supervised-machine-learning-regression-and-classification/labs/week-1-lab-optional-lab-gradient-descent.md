@@ -1,10 +1,10 @@
 ---
 type: lab
 specialization: Machine Learning Specialization
-course: Supervised Machine Learning: Regression and Classification
+course: "Supervised Machine Learning: Regression and Classification"
 week: 1
 section: Train the model with gradient descent
-item_title: Optional lab: Gradient descent
+item_title: "Optional lab: Gradient descent"
 source_url: https://www.coursera.org/learn/machine-learning/ungradedLab/lE1al/optional-lab-gradient-descent
 notebook_path: /notebooks/C1_W1_Lab04_Gradient_Descent_Soln.ipynb
 language: en

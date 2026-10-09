@@ -1,7 +1,7 @@
 ---
 type: video-transcript
 specialization: Deep Learning Specialization
-course: Improving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization
+course: "Improving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization"
 week: 3
 section: Batch Normalization
 item_title: Fitting Batch Norm into a Neural Network

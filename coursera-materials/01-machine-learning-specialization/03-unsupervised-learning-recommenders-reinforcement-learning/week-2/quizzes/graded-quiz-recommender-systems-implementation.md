@@ -3,7 +3,7 @@ type: graded-quiz
 specialization: Machine Learning Specialization
 course: Unsupervised Learning, Recommenders, Reinforcement Learning
 week: 2
-section: Practice quiz: Recommender systems implementation
+section: "Practice quiz: Recommender systems implementation"
 item_title: Recommender systems implementation
 source_url: https://www.coursera.org/learn/unsupervised-learning-recommenders-reinforcement-learning/assignment-submission/Bz0pI/recommender-systems-implementation
 language: en

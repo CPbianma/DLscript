@@ -1,10 +1,10 @@
 ---
 type: graded-quiz
 specialization: Machine Learning Specialization
-course: Supervised Machine Learning: Regression and Classification
+course: "Supervised Machine Learning: Regression and Classification"
 week: 3
-section: Practice quiz: Classification with logistic regression
-item_title: Practice quiz: Classification with logistic regression
+section: "Practice quiz: Classification with logistic regression"
+item_title: "Practice quiz: Classification with logistic regression"
 source_url: https://www.coursera.org/learn/machine-learning/assignment-submission/jkmDN/practice-quiz-classification-with-logistic-regression
 language: en
 extracted_at: 2026-10-08T22:52:07+08:00

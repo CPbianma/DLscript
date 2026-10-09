@@ -4,7 +4,7 @@ specialization: Deep Learning Specialization
 course: Convolutional Neural Networks
 week: 4
 section: End of access to Lab Notebooks
-item_title: [IMPORTANT] Reminder about end of access to Lab Notebooks
+item_title: "[IMPORTANT] Reminder about end of access to Lab Notebooks"
 source_url: https://www.coursera.org/learn/convolutional-neural-networks/supplement/sroEJ/important-reminder-about-end-of-access-to-lab-notebooks
 language: en
 extracted_at: 2026-10-08T22:15:51+08:00

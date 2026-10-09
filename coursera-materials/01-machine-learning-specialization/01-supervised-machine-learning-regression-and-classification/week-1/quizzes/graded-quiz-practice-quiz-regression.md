@@ -1,10 +1,10 @@
 ---
 type: graded-quiz
 specialization: Machine Learning Specialization
-course: Supervised Machine Learning: Regression and Classification
+course: "Supervised Machine Learning: Regression and Classification"
 week: 1
-section: Practice Quiz: Regression Model
-item_title: Practice quiz: Regression
+section: "Practice Quiz: Regression Model"
+item_title: "Practice quiz: Regression"
 source_url: https://www.coursera.org/learn/machine-learning/assignment-submission/TNvjK/practice-quiz-regression
 language: en
 extracted_at: 2026-10-08T22:52:07+08:00

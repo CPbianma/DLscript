@@ -4,7 +4,7 @@ specialization: Machine Learning Specialization
 course: Unsupervised Learning, Recommenders, Reinforcement Learning
 week: 3
 section: End of Access to Lab Notebooks
-item_title: [IMPORTANT] Reminder about end of access to Lab Notebooks
+item_title: "[IMPORTANT] Reminder about end of access to Lab Notebooks"
 source_url: https://www.coursera.org/learn/unsupervised-learning-recommenders-reinforcement-learning/supplement/q4fF8/important-reminder-about-end-of-access-to-lab-notebooks
 language: en
 extracted_at: 2026-10-08T22:15:52+08:00

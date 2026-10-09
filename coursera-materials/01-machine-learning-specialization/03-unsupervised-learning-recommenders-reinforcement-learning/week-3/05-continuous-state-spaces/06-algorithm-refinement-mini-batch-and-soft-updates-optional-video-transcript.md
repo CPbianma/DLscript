@@ -4,7 +4,7 @@ specialization: Machine Learning Specialization
 course: Unsupervised Learning, Recommenders, Reinforcement Learning
 week: 3
 section: Continuous state spaces
-item_title: Algorithm refinement:  Mini-batch and soft updates (optional)
+item_title: "Algorithm refinement:  Mini-batch and soft updates (optional)"
 duration: 12 min
 source_url: https://www.coursera.org/learn/unsupervised-learning-recommenders-reinforcement-learning/lecture/TsaXj/algorithm-refinement-mini-batch-and-soft-updates-optional
 language: en

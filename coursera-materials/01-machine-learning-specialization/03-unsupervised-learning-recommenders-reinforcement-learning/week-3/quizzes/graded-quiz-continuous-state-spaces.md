@@ -3,7 +3,7 @@ type: graded-quiz
 specialization: Machine Learning Specialization
 course: Unsupervised Learning, Recommenders, Reinforcement Learning
 week: 3
-section: Quiz: Continuous state spaces
+section: "Quiz: Continuous state spaces"
 item_title: Continuous state spaces
 source_url: https://www.coursera.org/learn/unsupervised-learning-recommenders-reinforcement-learning/assignment-submission/dLfZs/continuous-state-spaces
 language: en

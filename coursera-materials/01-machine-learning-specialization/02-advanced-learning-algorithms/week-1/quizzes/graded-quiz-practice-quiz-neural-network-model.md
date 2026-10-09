@@ -3,8 +3,8 @@ type: graded-quiz
 specialization: Machine Learning Specialization
 course: Advanced Learning Algorithms
 week: 1
-section: Practice quiz: Neural network model
-item_title: Practice quiz: Neural network model
+section: "Practice quiz: Neural network model"
+item_title: "Practice quiz: Neural network model"
 source_url: https://www.coursera.org/learn/advanced-learning-algorithms/assignment-submission/9MHpG/practice-quiz-neural-network-model
 language: en
 extracted_at: 2026-10-08T22:52:07+08:00

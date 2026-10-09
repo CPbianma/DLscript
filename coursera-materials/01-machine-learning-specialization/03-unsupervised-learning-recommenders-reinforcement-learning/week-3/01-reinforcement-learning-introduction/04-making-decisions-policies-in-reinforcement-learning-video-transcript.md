@@ -4,7 +4,7 @@ specialization: Machine Learning Specialization
 course: Unsupervised Learning, Recommenders, Reinforcement Learning
 week: 3
 section: Reinforcement learning introduction
-item_title: Making decisions: Policies in reinforcement learning
+item_title: "Making decisions: Policies in reinforcement learning"
 duration: 3 min
 source_url: https://www.coursera.org/learn/unsupervised-learning-recommenders-reinforcement-learning/lecture/BsteY/making-decisions-policies-in-reinforcement-learning
 language: en

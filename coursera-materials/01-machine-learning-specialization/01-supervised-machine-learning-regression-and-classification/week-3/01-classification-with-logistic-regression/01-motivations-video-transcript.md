@@ -1,7 +1,7 @@
 ---
 type: video-transcript
 specialization: Machine Learning Specialization
-course: Supervised Machine Learning: Regression and Classification
+course: "Supervised Machine Learning: Regression and Classification"
 week: 3
 section: Classification with logistic regression
 item_title: Motivations

@@ -3,8 +3,8 @@ type: graded-quiz
 specialization: Machine Learning Specialization
 course: Advanced Learning Algorithms
 week: 4
-section: Practice quiz: Decision trees
-item_title: Practice quiz: Decision trees
+section: "Practice quiz: Decision trees"
+item_title: "Practice quiz: Decision trees"
 source_url: https://www.coursera.org/learn/advanced-learning-algorithms/assignment-submission/oLdIe/practice-quiz-decision-trees
 language: en
 extracted_at: 2026-10-08T22:52:07+08:00

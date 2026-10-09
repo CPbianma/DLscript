@@ -3,7 +3,7 @@ type: graded-quiz
 specialization: Machine Learning Specialization
 course: Unsupervised Learning, Recommenders, Reinforcement Learning
 week: 3
-section: Practice quiz: Reinforcement learning introduction
+section: "Practice quiz: Reinforcement learning introduction"
 item_title: Reinforcement learning introduction
 source_url: https://www.coursera.org/learn/unsupervised-learning-recommenders-reinforcement-learning/assignment-submission/522R6/reinforcement-learning-introduction
 language: en

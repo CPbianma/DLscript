@@ -3,8 +3,8 @@ type: graded-quiz
 specialization: Machine Learning Specialization
 course: Advanced Learning Algorithms
 week: 4
-section: Practice quiz: Tree ensembles
-item_title: Practice quiz: Tree ensembles
+section: "Practice quiz: Tree ensembles"
+item_title: "Practice quiz: Tree ensembles"
 source_url: https://www.coursera.org/learn/advanced-learning-algorithms/assignment-submission/olkdC/practice-quiz-tree-ensembles
 language: en
 extracted_at: 2026-10-08T22:52:07+08:00

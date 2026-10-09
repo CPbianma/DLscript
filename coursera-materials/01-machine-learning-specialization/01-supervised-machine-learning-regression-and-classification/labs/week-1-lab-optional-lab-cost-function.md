@@ -1,10 +1,10 @@
 ---
 type: lab
 specialization: Machine Learning Specialization
-course: Supervised Machine Learning: Regression and Classification
+course: "Supervised Machine Learning: Regression and Classification"
 week: 1
 section: Regression Model
-item_title: Optional lab: Cost function
+item_title: "Optional lab: Cost function"
 source_url: https://www.coursera.org/learn/machine-learning/ungradedLab/udPHh/optional-lab-cost-function
 notebook_path: /notebooks/C1_W1_Lab03_Cost_function_Soln.ipynb
 language: en

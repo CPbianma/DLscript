@@ -1,7 +1,7 @@
 ---
 type: graded-quiz
 specialization: Deep Learning Specialization
-course: Improving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization
+course: "Improving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization"
 week: 1
 section: Quiz
 item_title: Practical Aspects of Deep Learning   

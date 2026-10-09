@@ -3,7 +3,7 @@ type: graded-quiz
 specialization: Machine Learning Specialization
 course: Unsupervised Learning, Recommenders, Reinforcement Learning
 week: 1
-section: Practice Quiz: Clustering
+section: "Practice Quiz: Clustering"
 item_title: Clustering
 source_url: https://www.coursera.org/learn/unsupervised-learning-recommenders-reinforcement-learning/assignment-submission/pThlX/clustering
 language: en

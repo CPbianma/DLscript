@@ -4,7 +4,7 @@ specialization: Machine Learning Specialization
 course: Advanced Learning Algorithms
 week: 4
 section: End of Access to Lab Notebooks
-item_title: [IMPORTANT] Reminder about end of access to Lab Notebooks
+item_title: "[IMPORTANT] Reminder about end of access to Lab Notebooks"
 source_url: https://www.coursera.org/learn/advanced-learning-algorithms/supplement/8bWHn/important-reminder-about-end-of-access-to-lab-notebooks
 language: en
 extracted_at: 2026-10-08T22:15:50+08:00

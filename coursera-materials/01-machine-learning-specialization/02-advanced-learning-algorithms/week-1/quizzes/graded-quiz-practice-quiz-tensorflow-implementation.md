@@ -3,8 +3,8 @@ type: graded-quiz
 specialization: Machine Learning Specialization
 course: Advanced Learning Algorithms
 week: 1
-section: Practice quiz: TensorFlow implementation
-item_title: Practice quiz: TensorFlow implementation
+section: "Practice quiz: TensorFlow implementation"
+item_title: "Practice quiz: TensorFlow implementation"
 source_url: https://www.coursera.org/learn/advanced-learning-algorithms/assignment-submission/75mlV/practice-quiz-tensorflow-implementation
 language: en
 extracted_at: 2026-10-08T22:52:07+08:00

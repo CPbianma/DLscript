@@ -1,7 +1,7 @@
 ---
 type: reading
 specialization: Deep Learning Specialization
-course: Improving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization
+course: "Improving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization"
 week: 1
 section: Programming Assignments
 item_title: (Optional) Downloading your Notebook, Downloading your Workspace and Refreshing your Workspace

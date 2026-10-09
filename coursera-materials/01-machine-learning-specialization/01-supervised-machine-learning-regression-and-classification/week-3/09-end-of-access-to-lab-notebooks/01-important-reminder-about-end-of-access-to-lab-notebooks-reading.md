@@ -1,10 +1,10 @@
 ---
 type: reading
 specialization: Machine Learning Specialization
-course: Supervised Machine Learning: Regression and Classification
+course: "Supervised Machine Learning: Regression and Classification"
 week: 3
 section: End of Access to Lab Notebooks
-item_title: [IMPORTANT] Reminder about end of access to Lab Notebooks
+item_title: "[IMPORTANT] Reminder about end of access to Lab Notebooks"
 source_url: https://www.coursera.org/learn/machine-learning/supplement/uKXnK/important-reminder-about-end-of-access-to-lab-notebooks
 language: en
 extracted_at: 2026-10-08T22:15:51+08:00

@@ -3,8 +3,8 @@ type: graded-quiz
 specialization: Machine Learning Specialization
 course: Advanced Learning Algorithms
 week: 3
-section: Practice quiz: Advice for applying machine learning
-item_title: Practice quiz: Advice for applying machine learning
+section: "Practice quiz: Advice for applying machine learning"
+item_title: "Practice quiz: Advice for applying machine learning"
 source_url: https://www.coursera.org/learn/advanced-learning-algorithms/assignment-submission/bURi8/practice-quiz-advice-for-applying-machine-learning
 language: en
 extracted_at: 2026-10-08T22:52:07+08:00

@@ -1,10 +1,10 @@
 ---
 type: graded-quiz
 specialization: Machine Learning Specialization
-course: Supervised Machine Learning: Regression and Classification
+course: "Supervised Machine Learning: Regression and Classification"
 week: 1
-section: Practice Quiz: Supervised vs unsupervised learning
-item_title: Practice quiz: Supervised vs unsupervised learning
+section: "Practice Quiz: Supervised vs unsupervised learning"
+item_title: "Practice quiz: Supervised vs unsupervised learning"
 source_url: https://www.coursera.org/learn/machine-learning/assignment-submission/sdmz8/practice-quiz-supervised-vs-unsupervised-learning
 language: en
 extracted_at: 2026-10-08T22:22:03+08:00

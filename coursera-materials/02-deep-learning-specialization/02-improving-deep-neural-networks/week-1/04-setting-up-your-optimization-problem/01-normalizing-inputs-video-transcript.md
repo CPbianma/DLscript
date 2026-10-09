@@ -1,7 +1,7 @@
 ---
 type: video-transcript
 specialization: Deep Learning Specialization
-course: Improving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization
+course: "Improving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization"
 week: 1
 section: Setting Up your Optimization Problem
 item_title: Normalizing Inputs

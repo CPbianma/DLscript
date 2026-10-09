@@ -4,7 +4,7 @@ specialization: Deep Learning Specialization
 course: Neural Networks and Deep Learning
 week: 4
 section: Deep Neural Network
-item_title: Clarification For: What does this have to do with the brain?
+item_title: "Clarification For: What does this have to do with the brain?"
 source_url: https://www.coursera.org/learn/neural-networks-deep-learning/supplement/E79Uh/clarification-for-what-does-this-have-to-do-with-the-brain
 language: en
 extracted_at: 2026-10-08T22:15:51+08:00

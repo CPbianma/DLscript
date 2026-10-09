@@ -3,8 +3,8 @@ type: graded-quiz
 specialization: Machine Learning Specialization
 course: Advanced Learning Algorithms
 week: 2
-section: Practice quiz: Additional Neural Network Concepts
-item_title: Practice quiz: Additional Neural Network Concepts
+section: "Practice quiz: Additional Neural Network Concepts"
+item_title: "Practice quiz: Additional Neural Network Concepts"
 source_url: https://www.coursera.org/learn/advanced-learning-algorithms/assignment-submission/ljlgM/practice-quiz-additional-neural-network-concepts
 language: en
 extracted_at: 2026-10-08T22:52:07+08:00

@@ -3,8 +3,8 @@ type: graded-quiz
 specialization: Machine Learning Specialization
 course: Advanced Learning Algorithms
 week: 2
-section: Practice quiz: Neural Network Training
-item_title: Practice quiz: Neural Network Training
+section: "Practice quiz: Neural Network Training"
+item_title: "Practice quiz: Neural Network Training"
 source_url: https://www.coursera.org/learn/advanced-learning-algorithms/assignment-submission/nBZd2/practice-quiz-neural-network-training
 language: en
 extracted_at: 2026-10-08T22:52:07+08:00

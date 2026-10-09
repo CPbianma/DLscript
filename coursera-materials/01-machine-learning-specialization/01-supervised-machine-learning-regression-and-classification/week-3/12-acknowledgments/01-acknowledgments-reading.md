@@ -1,7 +1,7 @@
 ---
 type: reading
 specialization: Machine Learning Specialization
-course: Supervised Machine Learning: Regression and Classification
+course: "Supervised Machine Learning: Regression and Classification"
 week: 3
 section: Acknowledgments
 item_title: Acknowledgments

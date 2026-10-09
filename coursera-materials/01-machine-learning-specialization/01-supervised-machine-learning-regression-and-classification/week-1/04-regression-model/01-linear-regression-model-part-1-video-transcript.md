@@ -1,7 +1,7 @@
 ---
 type: video-transcript
 specialization: Machine Learning Specialization
-course: Supervised Machine Learning: Regression and Classification
+course: "Supervised Machine Learning: Regression and Classification"
 week: 1
 section: Regression Model
 item_title: Linear regression model part 1

@@ -1,7 +1,7 @@
 ---
 type: video-transcript
 specialization: Machine Learning Specialization
-course: Supervised Machine Learning: Regression and Classification
+course: "Supervised Machine Learning: Regression and Classification"
 week: 3
 section: Conversations with Andrew (Optional)
 item_title: Andrew Ng and Fei-Fei Li on Human-Centered AI

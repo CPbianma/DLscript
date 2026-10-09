@@ -1,7 +1,7 @@
 ---
 type: lab
 specialization: Machine Learning Specialization
-course: Supervised Machine Learning: Regression and Classification
+course: "Supervised Machine Learning: Regression and Classification"
 week: 1
 section: Supervised vs. Unsupervised Machine Learning
 item_title: Python and Jupyter Notebooks

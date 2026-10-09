@@ -4,7 +4,7 @@ specialization: Deep Learning Specialization
 course: Neural Networks and Deep Learning
 week: 4
 section: Deep Neural Network
-item_title: Optional Reading: Feedforward Neural Networks in Depth
+item_title: "Optional Reading: Feedforward Neural Networks in Depth"
 source_url: https://www.coursera.org/learn/neural-networks-deep-learning/supplement/3FdNk/optional-reading-feedforward-neural-networks-in-depth
 language: en
 extracted_at: 2026-10-08T22:15:51+08:00

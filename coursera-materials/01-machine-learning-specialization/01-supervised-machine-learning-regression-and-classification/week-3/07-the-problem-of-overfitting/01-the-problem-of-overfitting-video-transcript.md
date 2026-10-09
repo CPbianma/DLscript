@@ -1,7 +1,7 @@
 ---
 type: video-transcript
 specialization: Machine Learning Specialization
-course: Supervised Machine Learning: Regression and Classification
+course: "Supervised Machine Learning: Regression and Classification"
 week: 3
 section: The problem of overfitting
 item_title: The problem of overfitting

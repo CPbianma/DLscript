@@ -1,10 +1,10 @@
 ---
 type: lab
 specialization: Machine Learning Specialization
-course: Supervised Machine Learning: Regression and Classification
+course: "Supervised Machine Learning: Regression and Classification"
 week: 1
 section: Regression Model
-item_title: Optional lab: Model representation
+item_title: "Optional lab: Model representation"
 source_url: https://www.coursera.org/learn/machine-learning/ungradedLab/PhN1X/optional-lab-model-representation
 notebook_path: /notebooks/C1_W1_Lab02_Model_Representation_Soln.ipynb
 language: en

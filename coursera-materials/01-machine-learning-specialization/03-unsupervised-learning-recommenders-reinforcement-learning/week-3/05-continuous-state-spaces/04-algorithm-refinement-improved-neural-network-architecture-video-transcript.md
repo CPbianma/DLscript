@@ -4,7 +4,7 @@ specialization: Machine Learning Specialization
 course: Unsupervised Learning, Recommenders, Reinforcement Learning
 week: 3
 section: Continuous state spaces
-item_title: Algorithm refinement: Improved neural network architecture
+item_title: "Algorithm refinement: Improved neural network architecture"
 duration: 3 min
 source_url: https://www.coursera.org/learn/unsupervised-learning-recommenders-reinforcement-learning/lecture/hpmUe/algorithm-refinement-improved-neural-network-architecture
 language: en

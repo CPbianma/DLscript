@@ -3,8 +3,8 @@ type: graded-quiz
 specialization: Machine Learning Specialization
 course: Advanced Learning Algorithms
 week: 1
-section: Practice quiz: Neural networks intuition
-item_title: Practice quiz: Neural networks intuition
+section: "Practice quiz: Neural networks intuition"
+item_title: "Practice quiz: Neural networks intuition"
 source_url: https://www.coursera.org/learn/advanced-learning-algorithms/assignment-submission/Pn4vI/practice-quiz-neural-networks-intuition
 language: en
 extracted_at: 2026-10-08T22:52:07+08:00

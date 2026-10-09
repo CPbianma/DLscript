@@ -4,7 +4,7 @@ specialization: Machine Learning Specialization
 course: Unsupervised Learning, Recommenders, Reinforcement Learning
 week: 3
 section: Continuous state spaces
-item_title: Algorithm refinement: ϵ-greedy policy
+item_title: "Algorithm refinement: ϵ-greedy policy"
 duration: 9 min
 source_url: https://www.coursera.org/learn/unsupervised-learning-recommenders-reinforcement-learning/lecture/GyBzo/algorithm-refinement-greedy-policy
 language: en

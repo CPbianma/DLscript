@@ -3,8 +3,8 @@ type: graded-quiz
 specialization: Machine Learning Specialization
 course: Advanced Learning Algorithms
 week: 3
-section: Practice quiz: Machine learning development process
-item_title: Practice quiz: Machine learning development process
+section: "Practice quiz: Machine learning development process"
+item_title: "Practice quiz: Machine learning development process"
 source_url: https://www.coursera.org/learn/advanced-learning-algorithms/assignment-submission/eXHPZ/practice-quiz-machine-learning-development-process
 language: en
 extracted_at: 2026-10-08T22:52:07+08:00

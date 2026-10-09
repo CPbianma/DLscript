@@ -4,7 +4,7 @@ specialization: Machine Learning Specialization
 course: Advanced Learning Algorithms
 week: 1
 section: Neural networks intuition
-item_title: Example: Recognizing Images
+item_title: "Example: Recognizing Images"
 duration: 7 min
 source_url: https://www.coursera.org/learn/advanced-learning-algorithms/lecture/RCpEW/example-recognizing-images
 language: en

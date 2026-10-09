@@ -3,7 +3,7 @@ type: graded-quiz
 specialization: Machine Learning Specialization
 course: Unsupervised Learning, Recommenders, Reinforcement Learning
 week: 2
-section: Practice Quiz: Content-based filtering
+section: "Practice Quiz: Content-based filtering"
 item_title: Content-based filtering
 source_url: https://www.coursera.org/learn/unsupervised-learning-recommenders-reinforcement-learning/assignment-submission/Ydam1/content-based-filtering
 language: en

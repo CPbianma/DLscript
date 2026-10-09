@@ -4,7 +4,7 @@ specialization: Machine Learning Specialization
 course: Advanced Learning Algorithms
 week: 1
 section: Neural network model
-item_title: Inference: making predictions (forward propagation)
+item_title: "Inference: making predictions (forward propagation)"
 duration: 5 min
 source_url: https://www.coursera.org/learn/advanced-learning-algorithms/lecture/vYsrR/inference-making-predictions-forward-propagation
 language: en

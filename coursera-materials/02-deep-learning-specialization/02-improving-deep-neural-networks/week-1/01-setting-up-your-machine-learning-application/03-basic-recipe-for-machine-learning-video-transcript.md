@@ -1,7 +1,7 @@
 ---
 type: video-transcript
 specialization: Deep Learning Specialization
-course: Improving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization
+course: "Improving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization"
 week: 1
 section: Setting up your Machine Learning Application
 item_title: Basic Recipe for Machine Learning 

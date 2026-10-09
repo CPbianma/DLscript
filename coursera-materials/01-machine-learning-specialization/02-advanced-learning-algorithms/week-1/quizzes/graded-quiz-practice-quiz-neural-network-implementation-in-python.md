@@ -3,8 +3,8 @@ type: graded-quiz
 specialization: Machine Learning Specialization
 course: Advanced Learning Algorithms
 week: 1
-section: Practice quiz: Neural network implementation in Python
-item_title: Practice quiz: Neural network implementation in Python
+section: "Practice quiz: Neural network implementation in Python"
+item_title: "Practice quiz: Neural network implementation in Python"
 source_url: https://www.coursera.org/learn/advanced-learning-algorithms/assignment-submission/w8v2m/practice-quiz-neural-network-implementation-in-python
 language: en
 extracted_at: 2026-10-08T22:52:07+08:00

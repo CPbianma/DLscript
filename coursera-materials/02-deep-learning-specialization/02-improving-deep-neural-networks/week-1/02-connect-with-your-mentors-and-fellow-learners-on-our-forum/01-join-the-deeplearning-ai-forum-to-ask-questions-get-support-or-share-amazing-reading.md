@@ -1,7 +1,7 @@
 ---
 type: reading
 specialization: Deep Learning Specialization
-course: Improving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization
+course: "Improving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization"
 week: 1
 section: Connect with your Mentors and Fellow Learners on our Forum!
 item_title: Join the DeepLearning.AI Forum to ask questions, get support, or share amazing ideas!

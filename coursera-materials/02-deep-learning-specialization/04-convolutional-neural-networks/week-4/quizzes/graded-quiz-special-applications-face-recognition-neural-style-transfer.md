@@ -4,7 +4,7 @@ specialization: Deep Learning Specialization
 course: Convolutional Neural Networks
 week: 4
 section: Quiz
-item_title: Special Applications: Face Recognition & Neural Style Transfer   
+item_title: "Special Applications: Face Recognition & Neural Style Transfer"
 source_url: https://www.coursera.org/learn/convolutional-neural-networks/assignment-submission/61BHW/special-applications-face-recognition-neural-style-transfer
 language: en
 extracted_at: 2026-10-08T22:59:23+08:00

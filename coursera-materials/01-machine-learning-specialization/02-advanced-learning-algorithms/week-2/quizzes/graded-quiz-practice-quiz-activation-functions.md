@@ -3,8 +3,8 @@ type: graded-quiz
 specialization: Machine Learning Specialization
 course: Advanced Learning Algorithms
 week: 2
-section: Practice quiz: Activation Functions
-item_title: Practice quiz: Activation Functions
+section: "Practice quiz: Activation Functions"
+item_title: "Practice quiz: Activation Functions"
 source_url: https://www.coursera.org/learn/advanced-learning-algorithms/assignment-submission/7gq3P/practice-quiz-activation-functions
 language: en
 extracted_at: 2026-10-08T22:52:07+08:00

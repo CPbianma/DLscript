@@ -1,7 +1,7 @@
 ---
 type: reading
 specialization: Deep Learning Specialization
-course: Improving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization
+course: "Improving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization"
 week: 2
 section: Optimization Algorithms
 item_title: Clarification about Learning Rate Decay Video

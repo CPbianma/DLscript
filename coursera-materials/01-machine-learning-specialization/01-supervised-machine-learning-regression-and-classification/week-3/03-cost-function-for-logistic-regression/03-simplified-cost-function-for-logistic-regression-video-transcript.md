@@ -1,7 +1,7 @@
 ---
 type: video-transcript
 specialization: Machine Learning Specialization
-course: Supervised Machine Learning: Regression and Classification
+course: "Supervised Machine Learning: Regression and Classification"
 week: 3
 section: Cost function for logistic regression
 item_title: Simplified Cost Function for Logistic Regression

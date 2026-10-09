@@ -1,10 +1,10 @@
 ---
 type: graded-quiz
 specialization: Machine Learning Specialization
-course: Supervised Machine Learning: Regression and Classification
+course: "Supervised Machine Learning: Regression and Classification"
 week: 3
-section: Practice quiz: The problem of overfitting
-item_title: Practice quiz: The problem of overfitting
+section: "Practice quiz: The problem of overfitting"
+item_title: "Practice quiz: The problem of overfitting"
 source_url: https://www.coursera.org/learn/machine-learning/assignment-submission/8Kf7N/practice-quiz-the-problem-of-overfitting
 language: en
 extracted_at: 2026-10-08T22:52:07+08:00

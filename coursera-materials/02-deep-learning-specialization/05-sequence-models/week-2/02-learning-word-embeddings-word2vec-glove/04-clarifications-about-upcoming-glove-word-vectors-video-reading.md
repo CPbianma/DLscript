@@ -3,7 +3,7 @@ type: reading
 specialization: Deep Learning Specialization
 course: Sequence Models
 week: 2
-section: Learning Word Embeddings: Word2vec & GloVe
+section: "Learning Word Embeddings: Word2vec & GloVe"
 item_title: Clarifications about Upcoming GloVe Word Vectors Video 
 source_url: https://www.coursera.org/learn/nlp-sequence-models/supplement/Kz71Z/clarifications-about-upcoming-glove-word-vectors-video
 language: en

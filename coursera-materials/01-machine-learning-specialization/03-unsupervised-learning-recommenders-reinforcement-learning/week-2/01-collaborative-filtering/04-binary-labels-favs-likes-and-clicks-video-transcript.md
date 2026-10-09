@@ -4,7 +4,7 @@ specialization: Machine Learning Specialization
 course: Unsupervised Learning, Recommenders, Reinforcement Learning
 week: 2
 section: Collaborative filtering
-item_title: Binary labels: favs, likes and clicks
+item_title: "Binary labels: favs, likes and clicks"
 duration: 8 min
 source_url: https://www.coursera.org/learn/unsupervised-learning-recommenders-reinforcement-learning/lecture/e6AxK/binary-labels-favs-likes-and-clicks
 language: en

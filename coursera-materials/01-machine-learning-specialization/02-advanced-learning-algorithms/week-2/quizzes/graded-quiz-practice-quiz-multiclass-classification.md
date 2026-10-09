@@ -3,8 +3,8 @@ type: graded-quiz
 specialization: Machine Learning Specialization
 course: Advanced Learning Algorithms
 week: 2
-section: Practice quiz: Multiclass Classification
-item_title: Practice quiz: Multiclass Classification
+section: "Practice quiz: Multiclass Classification"
+item_title: "Practice quiz: Multiclass Classification"
 source_url: https://www.coursera.org/learn/advanced-learning-algorithms/assignment-submission/d9Buy/practice-quiz-multiclass-classification
 language: en
 extracted_at: 2026-10-08T22:52:07+08:00

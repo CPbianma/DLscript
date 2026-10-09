@@ -4,7 +4,7 @@ specialization: Machine Learning Specialization
 course: Advanced Learning Algorithms
 week: 4
 section: Decision tree learning
-item_title: Choosing a split: Information Gain
+item_title: "Choosing a split: Information Gain"
 duration: 12 min
 source_url: https://www.coursera.org/learn/advanced-learning-algorithms/lecture/ZSbs2/choosing-a-split-information-gain
 language: en

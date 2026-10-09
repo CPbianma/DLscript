@@ -3,7 +3,7 @@ type: graded-quiz
 specialization: Machine Learning Specialization
 course: Unsupervised Learning, Recommenders, Reinforcement Learning
 week: 2
-section: Practice quiz: Collaborative filtering
+section: "Practice quiz: Collaborative filtering"
 item_title: Collaborative Filtering
 source_url: https://www.coursera.org/learn/unsupervised-learning-recommenders-reinforcement-learning/assignment-submission/yThnA/collaborative-filtering
 language: en

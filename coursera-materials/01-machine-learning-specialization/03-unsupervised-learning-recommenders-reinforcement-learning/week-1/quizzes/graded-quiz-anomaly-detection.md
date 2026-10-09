@@ -3,7 +3,7 @@ type: graded-quiz
 specialization: Machine Learning Specialization
 course: Unsupervised Learning, Recommenders, Reinforcement Learning
 week: 1
-section: Practice quiz: Anomaly detection
+section: "Practice quiz: Anomaly detection"
 item_title: Anomaly detection
 source_url: https://www.coursera.org/learn/unsupervised-learning-recommenders-reinforcement-learning/assignment-submission/afUuX/anomaly-detection
 language: en

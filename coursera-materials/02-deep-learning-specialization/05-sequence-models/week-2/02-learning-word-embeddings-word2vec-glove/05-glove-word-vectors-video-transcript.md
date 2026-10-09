@@ -3,7 +3,7 @@ type: video-transcript
 specialization: Deep Learning Specialization
 course: Sequence Models
 week: 2
-section: Learning Word Embeddings: Word2vec & GloVe
+section: "Learning Word Embeddings: Word2vec & GloVe"
 item_title: GloVe Word Vectors
 duration: 11 min
 source_url: https://www.coursera.org/learn/nlp-sequence-models/lecture/IxDTG/glove-word-vectors

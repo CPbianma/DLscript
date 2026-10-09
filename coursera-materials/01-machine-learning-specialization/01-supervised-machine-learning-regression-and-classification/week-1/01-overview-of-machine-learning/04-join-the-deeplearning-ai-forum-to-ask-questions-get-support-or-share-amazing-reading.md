@@ -1,7 +1,7 @@
 ---
 type: reading
 specialization: Machine Learning Specialization
-course: Supervised Machine Learning: Regression and Classification
+course: "Supervised Machine Learning: Regression and Classification"
 week: 1
 section: Overview of Machine Learning
 item_title: Join the DeepLearning.AI Forum to ask questions, get support, or share amazing ideas!

@@ -3,8 +3,8 @@ type: graded-quiz
 specialization: Machine Learning Specialization
 course: Advanced Learning Algorithms
 week: 3
-section: Practice quiz: Bias and variance
-item_title: Practice quiz: Bias and variance
+section: "Practice quiz: Bias and variance"
+item_title: "Practice quiz: Bias and variance"
 source_url: https://www.coursera.org/learn/advanced-learning-algorithms/assignment-submission/FakV2/practice-quiz-bias-and-variance
 language: en
 extracted_at: 2026-10-08T22:52:07+08:00

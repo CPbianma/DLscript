@@ -4,7 +4,7 @@ specialization: Machine Learning Specialization
 course: Advanced Learning Algorithms
 week: 3
 section: Machine learning development process
-item_title: Transfer learning: using data from a different task
+item_title: "Transfer learning: using data from a different task"
 duration: 12 min
 source_url: https://www.coursera.org/learn/advanced-learning-algorithms/lecture/ycgS5/transfer-learning-using-data-from-a-different-task
 language: en

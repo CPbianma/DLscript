@@ -1,10 +1,10 @@
 ---
 type: graded-quiz
 specialization: Machine Learning Specialization
-course: Supervised Machine Learning: Regression and Classification
+course: "Supervised Machine Learning: Regression and Classification"
 week: 2
-section: Practice quiz: Gradient descent in practice
-item_title: Practice quiz: Gradient descent in practice
+section: "Practice quiz: Gradient descent in practice"
+item_title: "Practice quiz: Gradient descent in practice"
 source_url: https://www.coursera.org/learn/machine-learning/assignment-submission/wAYb5/practice-quiz-gradient-descent-in-practice
 language: en
 extracted_at: 2026-10-08T22:52:07+08:00

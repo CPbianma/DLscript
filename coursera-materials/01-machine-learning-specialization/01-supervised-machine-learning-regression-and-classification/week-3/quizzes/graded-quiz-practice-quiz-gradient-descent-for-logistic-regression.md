@@ -1,10 +1,10 @@
 ---
 type: graded-quiz
 specialization: Machine Learning Specialization
-course: Supervised Machine Learning: Regression and Classification
+course: "Supervised Machine Learning: Regression and Classification"
 week: 3
-section: Practice quiz: Gradient descent for logistic regression
-item_title: Practice quiz: Gradient descent for logistic regression
+section: "Practice quiz: Gradient descent for logistic regression"
+item_title: "Practice quiz: Gradient descent for logistic regression"
 source_url: https://www.coursera.org/learn/machine-learning/assignment-submission/XqVmD/practice-quiz-gradient-descent-for-logistic-regression
 language: en
 extracted_at: 2026-10-08T22:52:07+08:00

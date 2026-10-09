@@ -1,10 +1,10 @@
 ---
 type: video-transcript
 specialization: Deep Learning Specialization
-course: Improving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization
+course: "Improving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization"
 week: 3
 section: Hyperparameter Tuning
-item_title: Hyperparameters Tuning in Practice: Pandas vs. Caviar
+item_title: "Hyperparameters Tuning in Practice: Pandas vs. Caviar"
 duration: 7 min
 source_url: https://www.coursera.org/learn/deep-neural-network/lecture/DHNcc/hyperparameters-tuning-in-practice-pandas-vs-caviar
 language: en
