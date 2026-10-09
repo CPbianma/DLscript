@@ -1,0 +1,72 @@
+---
+type: reading
+specialization: Deep Learning Specialization
+course: Structuring Machine Learning Projects
+week: 2
+section: Acknowledgments
+item_title: Acknowledgments
+source_url: https://www.coursera.org/learn/machine-learning-projects/supplement/M8Oeb/acknowledgments
+language: en
+extracted_at: 2026-10-08T22:15:51+08:00
+status: success
+---
+# Acknowledgments
+
+I​n addition to the original Curriculum Developers, following people made significant contributions to the Deep Learning Specialization Refresh
+**Curriculum Development Support**
+
+* Lynn He
+* A​rden Thira
+
+**Q​uiz Revisions**
+
+* Eddy Shyu
+* M​uhammad Mubashar
+
+**Engineering Support**
+
+* Eddy Shyu
+* Santiago Hernández
+* Andres Castillo
+* M​uhammad Mubashar
+
+**Alpha Testing and Mentorship**
+
+* Leticia L. Rodriguez
+* Arturo Polanco
+
+**Alpha Testers**
+
+* Hua-Ching Su
+* Anubhav Kumar
+* A. Rosa Castillo
+* Reinoud Bosch
+* Christopher Moroney
+* Geoff Ladiwg
+* Gordon Robinson
+* Kin Cheung
+* Luis Alanis
+* Ammar Mohanna
+* Paul Mielke
+* Rishit Dholakia
+* Robert Perry
+* A​rka Mitra
+
+**Marketing**
+
+* Ishita Chaudary
+
+**Video Production**
+
+* Chris Wiggins
+
+**Additional Administrative and Content Support**
+
+* Ryan Keenan
+* Lara Pheatt-Pitzer
+* Brandon Iljas
+* Juan Delgado
+
+​
+
+Finally, our sincerest thanks to YOU, for enrolling in this Specialization and becoming part of our global community of learners!
