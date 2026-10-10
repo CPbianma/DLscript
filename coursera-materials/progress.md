@@ -1,0 +1,572 @@
+# Coursera 提取进度记录
+
+断点续传依据：每完成一个条目在此追加一行。
+格式：`[时间] [specialization / course / week / item] status`
+
+---
+
+- 2026-10-08 Phase 0 完成：环境检查通过，输出目录骨架已创建，等待用户确认后开始 Phase 1 登录。
+- 2026-10-08 Phase 1 完成：登录成功（账号 XINKE ZONG）。当前学习状态：Deep Learning Specialization Course 5/5 Sequence Models 79%。开始验证两个专项的访问权限并进入 Phase 2 建目录。
+- 2026-10-08 Phase 2 完成：8 门课 27 周 546 条目已枚举进 manifest.json（345 视频 / 79 阅读 / 35 lab / 37 编程作业 / 48 quiz / 2 问卷跳过）。
+  四类提取方式均已实测验证：视频字幕=Transcript 面板 DOM；quiz=view-feedback 页 DOM（过滤 content-integrity-instructions 注入元素）；阅读=.rc-CML；lab=Jupyter /api/contents。
+  注意：quiz 页面含隐藏的 prompt injection（data-ai-instructions），已确认按数据过滤处理，不点击其按钮。
+- [2026-10-08T21:52:12+08:00] machine-learning / week-1 / video / Linear regression model part 1 -> success
+- [2026-10-08T21:52:12+08:00] machine-learning / week-1 / video / Cost function formula -> success
+- [2026-10-08T21:52:12+08:00] machine-learning / week-1 / video / Gradient descent intuition -> success
+- [2026-10-08T21:52:12+08:00] machine-learning / week-1 / video / Gradient descent -> success
+- [2026-10-08T21:52:12+08:00] machine-learning / week-1 / video / Running gradient descent -> success
+- [2026-10-08T21:52:12+08:00] machine-learning / week-1 / video / Cost function intuition -> success
+- [2026-10-08T21:52:12+08:00] machine-learning / week-1 / video / Applications of machine learning -> success
+- [2026-10-08T21:52:12+08:00] machine-learning / week-1 / video / Welcome to machine learning! -> success
+- [2026-10-08T21:52:12+08:00] machine-learning / week-1 / video / Unsupervised learning part 2 -> success
+- [2026-10-08T21:52:12+08:00] machine-learning / week-1 / video / Gradient descent for linear regression -> success
+- [2026-10-08T21:52:12+08:00] machine-learning / week-1 / video / Jupyter Notebooks -> success
+- [2026-10-08T21:52:12+08:00] machine-learning / week-1 / video / Linear regression model part 2 -> success
+- [2026-10-08T21:52:12+08:00] machine-learning / week-1 / reading / Join the DeepLearning.AI Forum to ask questions, get support -> success
+- [2026-10-08T21:52:12+08:00] machine-learning / week-1 / video / Learning rate -> success
+- [2026-10-08T21:52:12+08:00] machine-learning / week-1 / video / Visualization examples -> success
+- [2026-10-08T21:52:12+08:00] machine-learning / week-1 / video / What is machine learning? -> success
+- [2026-10-08T21:52:12+08:00] machine-learning / week-1 / video / Supervised learning part 2 -> success
+- [2026-10-08T21:52:12+08:00] machine-learning / week-1 / video / Visualizing the cost function -> success
+- [2026-10-08T21:52:12+08:00] machine-learning / week-1 / video / Supervised learning part 1 -> success
+- [2026-10-08T21:52:12+08:00] machine-learning / week-1 / video / Implementing gradient descent -> success
+- [2026-10-08T21:52:12+08:00] machine-learning / week-1 / video / Unsupervised learning part 1 -> success
+- [2026-10-08T22:15:52+08:00] advanced-learning-algorithms / week-2 / video / Alternatives to the sigmoid activation -> success
+- [2026-10-08T22:15:52+08:00] advanced-learning-algorithms / week-3 / video / Evaluating a model -> success
+- [2026-10-08T22:15:52+08:00] advanced-learning-algorithms / week-2 / video / Training Details -> success
+- [2026-10-08T22:15:52+08:00] advanced-learning-algorithms / week-4 / video / Using multiple decision trees -> success
+- [2026-10-08T22:15:52+08:00] advanced-learning-algorithms / week-1 / video / Welcome! -> success
+- [2026-10-08T22:15:52+08:00] advanced-learning-algorithms / week-3 / video / Trading off precision and recall -> success
+- [2026-10-08T22:15:52+08:00] advanced-learning-algorithms / week-2 / video / Multiclass -> success
+- [2026-10-08T22:15:52+08:00] advanced-learning-algorithms / week-2 / video / Advanced Optimization -> success
+- [2026-10-08T22:15:52+08:00] advanced-learning-algorithms / week-4 / video / Learning Process -> success
+- [2026-10-08T22:15:52+08:00] advanced-learning-algorithms / week-4 / video / Measuring purity -> success
+- [2026-10-08T22:15:52+08:00] advanced-learning-algorithms / week-4 / video / Random forest algorithm -> success
+- [2026-10-08T22:15:52+08:00] advanced-learning-algorithms / week-4 / reading / [IMPORTANT] Reminder about end of access to Lab Notebooks -> success
+- [2026-10-08T22:15:52+08:00] advanced-learning-algorithms / week-4 / video / Continuous valued features -> success
+- [2026-10-08T22:15:52+08:00] advanced-learning-algorithms / week-4 / video / Putting it together -> success
+- [2026-10-08T22:15:52+08:00] advanced-learning-algorithms / week-1 / video / More complex neural networks -> success
+- [2026-10-08T22:15:52+08:00] advanced-learning-algorithms / week-3 / video / Establishing a baseline level of performance -> success
+- [2026-10-08T22:15:52+08:00] advanced-learning-algorithms / week-3 / video / Adding data -> success
+- [2026-10-08T22:15:52+08:00] advanced-learning-algorithms / week-1 / video / Forward prop in a single layer -> success
+- [2026-10-08T22:15:52+08:00] advanced-learning-algorithms / week-2 / video / Choosing activation functions -> success
+- [2026-10-08T22:15:52+08:00] advanced-learning-algorithms / week-1 / video / Neurons and the brain -> success
+- [2026-10-08T22:15:52+08:00] advanced-learning-algorithms / week-3 / video / Bias/variance and neural networks -> success
+- [2026-10-08T22:15:52+08:00] advanced-learning-algorithms / week-3 / video / Full cycle of a machine learning project -> success
+- [2026-10-08T22:15:52+08:00] advanced-learning-algorithms / week-1 / video / Data in TensorFlow -> success
+- [2026-10-08T22:15:52+08:00] advanced-learning-algorithms / week-1 / video / Is there a path to AGI? -> success
+- [2026-10-08T22:15:52+08:00] advanced-learning-algorithms / week-3 / video / Error analysis -> success
+- [2026-10-08T22:15:52+08:00] advanced-learning-algorithms / week-3 / video / Deciding what to try next -> success
+- [2026-10-08T22:15:52+08:00] advanced-learning-algorithms / week-1 / video / Matrix multiplication rules -> success
+- [2026-10-08T22:15:52+08:00] advanced-learning-algorithms / week-1 / video / General implementation of forward propagation -> success
+- [2026-10-08T22:15:52+08:00] advanced-learning-algorithms / week-4 / video / Decision tree model -> success
+- [2026-10-08T22:15:52+08:00] advanced-learning-algorithms / week-3 / video / Fairness, bias, and ethics -> success
+- [2026-10-08T22:15:52+08:00] advanced-learning-algorithms / week-2 / video / What is a derivative? (Optional) -> success
+- [2026-10-08T22:15:52+08:00] advanced-learning-algorithms / week-1 / video / Building a neural network -> success
+- [2026-10-08T22:15:52+08:00] advanced-learning-algorithms / week-3 / video / Regularization and bias/variance -> success
+- [2026-10-08T22:15:52+08:00] advanced-learning-algorithms / week-4 / reading / Acknowledgements -> success
+- [2026-10-08T22:15:52+08:00] advanced-learning-algorithms / week-2 / video / Additional Layer Types -> success
+- [2026-10-08T22:15:52+08:00] advanced-learning-algorithms / week-3 / video / Diagnosing bias and variance -> success
+- [2026-10-08T22:15:52+08:00] advanced-learning-algorithms / week-2 / video / Why do we need activation functions? -> success
+- [2026-10-08T22:15:52+08:00] advanced-learning-algorithms / week-1 / video / Demand Prediction -> success
+- [2026-10-08T22:15:52+08:00] advanced-learning-algorithms / week-2 / video / Softmax -> success
+- [2026-10-08T22:15:52+08:00] machine-learning / week-1 / reading / Join the DeepLearning.AI Forum to ask questions, get support -> success
+- [2026-10-08T22:15:52+08:00] advanced-learning-algorithms / week-2 / video / TensorFlow implementation -> success
+- [2026-10-08T22:15:52+08:00] advanced-learning-algorithms / week-4 / video / XGBoost -> success
+- [2026-10-08T22:15:52+08:00] advanced-learning-algorithms / week-2 / video / Classification with multiple outputs (Optional) -> success
+- [2026-10-08T22:15:52+08:00] advanced-learning-algorithms / week-3 / video / Error metrics for skewed datasets -> success
+- [2026-10-08T22:15:52+08:00] advanced-learning-algorithms / week-1 / video / How neural networks are implemented efficiently -> success
+- [2026-10-08T22:15:52+08:00] advanced-learning-algorithms / week-2 / video / Larger neural network example (Optional) -> success
+- [2026-10-08T22:15:52+08:00] advanced-learning-algorithms / week-1 / video / Example: Recognizing Images -> success
+- [2026-10-08T22:15:52+08:00] advanced-learning-algorithms / week-2 / video / Computation graph (Optional) -> success
+- [2026-10-08T22:15:52+08:00] advanced-learning-algorithms / week-1 / video / Inference in Code -> success
+- [2026-10-08T22:15:52+08:00] advanced-learning-algorithms / week-4 / video / Using one-hot encoding of categorical features -> success
+- [2026-10-08T22:15:52+08:00] advanced-learning-algorithms / week-2 / video / Improved implementation of softmax -> success
+- [2026-10-08T22:15:52+08:00] advanced-learning-algorithms / week-3 / video / Iterative loop of ML development -> success
+- [2026-10-08T22:15:52+08:00] advanced-learning-algorithms / week-4 / video / When to use decision trees -> success
+- [2026-10-08T22:15:52+08:00] advanced-learning-algorithms / week-1 / video / Inference: making predictions (forward propagation) -> success
+- [2026-10-08T22:15:52+08:00] advanced-learning-algorithms / week-3 / video / Deciding what to try next revisited -> success
+- [2026-10-08T22:15:52+08:00] advanced-learning-algorithms / week-3 / video / Learning curves -> success
+- [2026-10-08T22:15:52+08:00] advanced-learning-algorithms / week-4 / video / Regression Trees (optional) -> success
+- [2026-10-08T22:15:52+08:00] advanced-learning-algorithms / week-3 / video / Transfer learning: using data from a different task -> success
+- [2026-10-08T22:15:52+08:00] advanced-learning-algorithms / week-4 / video / Andrew Ng and Chris Manning on Natural Language Processing -> success
+- [2026-10-08T22:15:52+08:00] advanced-learning-algorithms / week-1 / video / Matrix multiplication code -> success
+- [2026-10-08T22:15:52+08:00] advanced-learning-algorithms / week-1 / video / Matrix multiplication -> success
+- [2026-10-08T22:15:52+08:00] advanced-learning-algorithms / week-1 / video / Neural network layer -> success
+- [2026-10-08T22:15:52+08:00] advanced-learning-algorithms / week-2 / video / Neural Network with Softmax output -> success
+- [2026-10-08T22:15:52+08:00] advanced-learning-algorithms / week-3 / video / Model selection and training/cross validation/test sets -> success
+- [2026-10-08T22:15:52+08:00] advanced-learning-algorithms / week-4 / video / Choosing a split: Information Gain -> success
+- [2026-10-08T22:15:52+08:00] advanced-learning-algorithms / week-4 / video / Sampling with replacement -> success
+- [2026-10-08T22:15:52+08:00] convolutional-neural-networks / week-1 / video / Yann LeCun Interview -> success
+- [2026-10-08T22:15:52+08:00] convolutional-neural-networks / week-2 / video / Transfer Learning -> success
+- [2026-10-08T22:15:52+08:00] convolutional-neural-networks / week-1 / video / Edge Detection Example -> success
+- [2026-10-08T22:15:52+08:00] convolutional-neural-networks / week-1 / reading / Clarifications about Upcoming CNN Example Video -> success
+- [2026-10-08T22:15:52+08:00] convolutional-neural-networks / week-2 / video / Inception Network Motivation -> success
+- [2026-10-08T22:15:52+08:00] convolutional-neural-networks / week-3 / video / Convolutional Implementation of Sliding Windows -> success
+- [2026-10-08T22:15:52+08:00] convolutional-neural-networks / week-3 / reading / Lecture Notes W3 -> success
+- [2026-10-08T22:15:52+08:00] convolutional-neural-networks / week-1 / video / More Edge Detection -> success
+- [2026-10-08T22:15:52+08:00] convolutional-neural-networks / week-2 / video / MobileNet Architecture -> success
+- [2026-10-08T22:15:52+08:00] convolutional-neural-networks / week-3 / video / Bounding Box Predictions -> success
+- [2026-10-08T22:15:52+08:00] convolutional-neural-networks / week-1 / video / Simple Convolutional Network Example -> success
+- [2026-10-08T22:15:52+08:00] convolutional-neural-networks / week-3 / video / Region Proposals (Optional) -> success
+- [2026-10-08T22:15:52+08:00] convolutional-neural-networks / week-2 / video / Data Augmentation -> success
+- [2026-10-08T22:15:52+08:00] convolutional-neural-networks / week-4 / video / Style Cost Function -> success
+- [2026-10-08T22:15:52+08:00] convolutional-neural-networks / week-2 / video / MobileNet -> success
+- [2026-10-08T22:15:52+08:00] convolutional-neural-networks / week-1 / reading / (Optional) Downloading your Notebook, Downloading your Works -> success
+- [2026-10-08T22:15:52+08:00] convolutional-neural-networks / week-4 / video / Siamese Network -> success
+- [2026-10-08T22:15:52+08:00] convolutional-neural-networks / week-3 / reading / Clear Output Before Submitting (For U-Net Assignment) -> success
+- [2026-10-08T22:15:52+08:00] convolutional-neural-networks / week-1 / video / Convolutions Over Volume -> success
+- [2026-10-08T22:15:52+08:00] convolutional-neural-networks / week-4 / video / Content Cost Function -> success
+- [2026-10-08T22:15:52+08:00] convolutional-neural-networks / week-2 / reading / Note on the Upcoming Programming Assignment - Residual Netwo -> success
+- [2026-10-08T22:15:52+08:00] convolutional-neural-networks / week-2 / video / State of Computer Vision -> success
+- [2026-10-08T22:15:52+08:00] convolutional-neural-networks / week-3 / video / Non-max Suppression -> success
+- [2026-10-08T22:15:52+08:00] convolutional-neural-networks / week-3 / video / YOLO Algorithm -> success
+- [2026-10-08T22:15:52+08:00] convolutional-neural-networks / week-4 / video / What are deep ConvNets learning? -> success
+- [2026-10-08T22:15:52+08:00] convolutional-neural-networks / week-3 / video / U-Net Architecture -> success
+- [2026-10-08T22:15:52+08:00] convolutional-neural-networks / week-4 / video / One Shot Learning -> success
+- [2026-10-08T22:15:52+08:00] convolutional-neural-networks / week-2 / video / ResNets -> success
+- [2026-10-08T22:15:52+08:00] convolutional-neural-networks / week-1 / video / Pooling Layers -> success
+- [2026-10-08T22:15:52+08:00] convolutional-neural-networks / week-4 / video / Triplet Loss -> success
+- [2026-10-08T22:15:52+08:00] convolutional-neural-networks / week-4 / video / Cost Function -> success
+- [2026-10-08T22:15:52+08:00] convolutional-neural-networks / week-2 / video / Why look at case studies? -> success
+- [2026-10-08T22:15:52+08:00] convolutional-neural-networks / week-3 / video / Transpose Convolutions -> success
+- [2026-10-08T22:15:52+08:00] convolutional-neural-networks / week-3 / reading / Clarifications about Upcoming YOLO Algorithm Video -> success
+- [2026-10-08T22:15:52+08:00] convolutional-neural-networks / week-3 / reading / Clarifications about Upcoming Convolutional Implementation o -> success
+- [2026-10-08T22:15:52+08:00] convolutional-neural-networks / week-4 / video / What is Face Recognition? -> success
+- [2026-10-08T22:15:52+08:00] convolutional-neural-networks / week-1 / reading / Clarifications about Upcoming Why Convolutions? -> success
+- [2026-10-08T22:15:52+08:00] convolutional-neural-networks / week-2 / video / Classic Networks -> success
+- [2026-10-08T22:15:52+08:00] convolutional-neural-networks / week-1 / reading / Lecture Notes W1 -> success
+- [2026-10-08T22:15:52+08:00] convolutional-neural-networks / week-3 / video / Object Localization -> success
+- [2026-10-08T22:15:52+08:00] convolutional-neural-networks / week-1 / video / One Layer of a Convolutional Network -> success
+- [2026-10-08T22:15:52+08:00] convolutional-neural-networks / week-2 / reading / Clarifications about Upcoming Inception Network Motivation V -> success
+- [2026-10-08T22:15:52+08:00] machine-learning / week-1 / reading / Join the DeepLearning.AI Forum to ask questions, get support -> success
+- [2026-10-08T22:15:52+08:00] convolutional-neural-networks / week-1 / video / Padding -> success
+- [2026-10-08T22:15:52+08:00] convolutional-neural-networks / week-1 / video / Computer Vision -> success
+- [2026-10-08T22:15:52+08:00] convolutional-neural-networks / week-4 / reading / References -> success
+- [2026-10-08T22:15:52+08:00] convolutional-neural-networks / week-3 / video / Landmark Detection -> success
+- [2026-10-08T22:15:52+08:00] convolutional-neural-networks / week-4 / video / 1D and 3D Generalizations -> success
+- [2026-10-08T22:15:52+08:00] convolutional-neural-networks / week-3 / video / Intersection Over Union -> success
+- [2026-10-08T22:15:52+08:00] convolutional-neural-networks / week-4 / reading / Clarifications about Upcoming Style Cost Function Video -> success
+- [2026-10-08T22:15:52+08:00] convolutional-neural-networks / week-2 / video / Inception Network -> success
+- [2026-10-08T22:15:52+08:00] convolutional-neural-networks / week-4 / reading / Clarifications about Upcoming Face Verification and Binary C -> success
+- [2026-10-08T22:15:52+08:00] convolutional-neural-networks / week-3 / video / Semantic Segmentation with U-Net -> success
+- [2026-10-08T22:15:52+08:00] convolutional-neural-networks / week-4 / video / What is Neural Style Transfer? -> success
+- [2026-10-08T22:15:52+08:00] convolutional-neural-networks / week-4 / reading / [IMPORTANT] Reminder about end of access to Lab Notebooks -> success
+- [2026-10-08T22:15:52+08:00] convolutional-neural-networks / week-2 / reading / Lecture Notes W2 -> success
+- [2026-10-08T22:15:52+08:00] convolutional-neural-networks / week-1 / video / CNN Example -> success
+- [2026-10-08T22:15:52+08:00] convolutional-neural-networks / week-3 / video / Object Detection -> success
+- [2026-10-08T22:15:52+08:00] convolutional-neural-networks / week-3 / video / U-Net Architecture Intuition -> success
+- [2026-10-08T22:15:52+08:00] convolutional-neural-networks / week-1 / video / Strided Convolutions -> success
+- [2026-10-08T22:15:52+08:00] convolutional-neural-networks / week-2 / video / Using Open-Source Implementation -> success
+- [2026-10-08T22:15:52+08:00] convolutional-neural-networks / week-1 / reading / Clarifications about Upcoming Simple Convolutional Network E -> success
+- [2026-10-08T22:15:52+08:00] convolutional-neural-networks / week-2 / video / Why ResNets Work? -> success
+- [2026-10-08T22:15:52+08:00] convolutional-neural-networks / week-4 / video / Face Verification and Binary Classification -> success
+- [2026-10-08T22:15:52+08:00] convolutional-neural-networks / week-1 / video / Why Convolutions? -> success
+- [2026-10-08T22:15:52+08:00] convolutional-neural-networks / week-4 / reading / Acknowledgments -> success
+- [2026-10-08T22:15:52+08:00] convolutional-neural-networks / week-3 / video / Anchor Boxes -> success
+- [2026-10-08T22:15:52+08:00] convolutional-neural-networks / week-2 / video / EfficientNet -> success
+- [2026-10-08T22:15:52+08:00] convolutional-neural-networks / week-2 / video / Networks in Networks and 1x1 Convolutions -> success
+- [2026-10-08T22:15:52+08:00] convolutional-neural-networks / week-4 / reading / Lecture Notes W4 -> success
+- [2026-10-08T22:15:52+08:00] deep-neural-network / week-3 / video / Using an Appropriate Scale to pick Hyperparameters -> success
+- [2026-10-08T22:15:52+08:00] deep-neural-network / week-2 / reading / Clarification about Learning Rate Decay Video -> success
+- [2026-10-08T22:15:52+08:00] deep-neural-network / week-3 / video / Normalizing Activations in a Network -> success
+- [2026-10-08T22:15:52+08:00] deep-neural-network / week-2 / reading / Clarification about Upcoming Adam Optimization Video -> success
+- [2026-10-08T22:15:52+08:00] deep-neural-network / week-1 / video / Gradient Checking Implementation Notes -> success
+- [2026-10-08T22:15:52+08:00] deep-neural-network / week-3 / video / Why does Batch Norm work? -> success
+- [2026-10-08T22:15:52+08:00] deep-neural-network / week-2 / video / RMSprop -> success
+- [2026-10-08T22:15:52+08:00] deep-neural-network / week-1 / video / Yoshua Bengio Interview -> success
+- [2026-10-08T22:15:52+08:00] deep-neural-network / week-2 / reading / Lecture Notes W2 -> success
+- [2026-10-08T22:15:52+08:00] deep-neural-network / week-1 / video / Vanishing / Exploding Gradients -> success
+- [2026-10-08T22:15:52+08:00] deep-neural-network / week-3 / reading / Clarification about Upcoming Normalizing Activations in a Ne -> success
+- [2026-10-08T22:15:52+08:00] deep-neural-network / week-1 / video / Train / Dev / Test sets -> success
+- [2026-10-08T22:15:52+08:00] deep-neural-network / week-2 / video / Yuanqing Lin Interview -> success
+- [2026-10-08T22:15:52+08:00] deep-neural-network / week-3 / video / Hyperparameters Tuning in Practice: Pandas vs. Caviar -> success
+- [2026-10-08T22:15:52+08:00] deep-neural-network / week-3 / video / Tuning Process -> success
+- [2026-10-08T22:15:52+08:00] deep-neural-network / week-2 / video / Exponentially Weighted Averages -> success
+- [2026-10-08T22:15:52+08:00] deep-neural-network / week-1 / video / Dropout Regularization -> success
+- [2026-10-08T22:15:52+08:00] deep-neural-network / week-3 / reading / Clarifications about Upcoming Softmax Video -> success
+- [2026-10-08T22:15:52+08:00] deep-neural-network / week-3 / video / Batch Norm at Test Time -> success
+- [2026-10-08T22:15:52+08:00] deep-neural-network / week-3 / reading / (Optional) Learn about Gradient Tape and More -> success
+- [2026-10-08T22:15:52+08:00] deep-neural-network / week-2 / video / Learning Rate Decay -> success
+- [2026-10-08T22:15:52+08:00] deep-neural-network / week-3 / video / Softmax Regression -> success
+- [2026-10-08T22:15:52+08:00] deep-neural-network / week-1 / video / Gradient Checking -> success
+- [2026-10-08T22:15:52+08:00] deep-neural-network / week-3 / reading / Lecture Notes W3 -> success
+- [2026-10-08T22:15:52+08:00] deep-neural-network / week-2 / video / Understanding Mini-batch Gradient Descent -> success
+- [2026-10-08T22:15:52+08:00] deep-neural-network / week-3 / video / Training a Softmax Classifier -> success
+- [2026-10-08T22:15:52+08:00] deep-neural-network / week-1 / video / Normalizing Inputs -> success
+- [2026-10-08T22:15:52+08:00] deep-neural-network / week-1 / reading / Clarification about Upcoming Regularization Video -> success
+- [2026-10-08T22:15:52+08:00] deep-neural-network / week-3 / video / Deep Learning Frameworks -> success
+- [2026-10-08T22:15:52+08:00] machine-learning / week-1 / reading / Join the DeepLearning.AI Forum to ask questions, get support -> success
+- [2026-10-08T22:15:52+08:00] deep-neural-network / week-3 / reading / Acknowledgments -> success
+- [2026-10-08T22:15:52+08:00] deep-neural-network / week-1 / video / Other Regularization Methods -> success
+- [2026-10-08T22:15:52+08:00] deep-neural-network / week-3 / reading / [IMPORTANT] Reminder about end of access to Lab Notebooks -> success
+- [2026-10-08T22:15:52+08:00] deep-neural-network / week-2 / video / Mini-batch Gradient Descent -> success
+- [2026-10-08T22:15:52+08:00] deep-neural-network / week-2 / video / The Problem of Local Optima -> success
+- [2026-10-08T22:15:52+08:00] deep-neural-network / week-3 / video / Fitting Batch Norm into a Neural Network -> success
+- [2026-10-08T22:15:52+08:00] deep-neural-network / week-1 / video / Weight Initialization for Deep Networks -> success
+- [2026-10-08T22:15:52+08:00] deep-neural-network / week-1 / video / Regularization -> success
+- [2026-10-08T22:15:52+08:00] deep-neural-network / week-1 / video / Why Regularization Reduces Overfitting? -> success
+- [2026-10-08T22:15:52+08:00] deep-neural-network / week-1 / reading / Lecture Notes W1 -> success
+- [2026-10-08T22:15:52+08:00] deep-neural-network / week-2 / video / Understanding Exponentially Weighted Averages -> success
+- [2026-10-08T22:15:52+08:00] deep-neural-network / week-1 / reading / (Optional) Downloading your Notebook, Downloading your Works -> success
+- [2026-10-08T22:15:52+08:00] deep-neural-network / week-2 / video / Adam Optimization Algorithm -> success
+- [2026-10-08T22:15:52+08:00] deep-neural-network / week-1 / reading / Clarification about Upcoming Understanding Dropout Video -> success
+- [2026-10-08T22:15:52+08:00] deep-neural-network / week-3 / reading / References -> success
+- [2026-10-08T22:15:52+08:00] deep-neural-network / week-2 / video / Bias Correction in Exponentially Weighted Averages -> success
+- [2026-10-08T22:15:52+08:00] deep-neural-network / week-1 / video / Numerical Approximation of Gradients -> success
+- [2026-10-08T22:15:52+08:00] deep-neural-network / week-2 / video / Gradient Descent with Momentum -> success
+- [2026-10-08T22:15:52+08:00] deep-neural-network / week-1 / video / Understanding Dropout -> success
+- [2026-10-08T22:15:52+08:00] deep-neural-network / week-1 / video / Basic Recipe for Machine Learning  -> success
+- [2026-10-08T22:15:52+08:00] deep-neural-network / week-3 / video / TensorFlow -> success
+- [2026-10-08T22:15:52+08:00] deep-neural-network / week-1 / video / Bias / Variance -> success
+- [2026-10-08T22:15:52+08:00] machine-learning / week-3 / video / Cost function for logistic regression -> success
+- [2026-10-08T22:15:52+08:00] machine-learning / week-2 / video / Choosing the learning rate -> success
+- [2026-10-08T22:15:52+08:00] machine-learning / week-1 / video / Linear regression model part 1 -> success
+- [2026-10-08T22:15:52+08:00] machine-learning / week-1 / video / Cost function formula -> success
+- [2026-10-08T22:15:52+08:00] machine-learning / week-1 / video / Gradient descent intuition -> success
+- [2026-10-08T22:15:52+08:00] machine-learning / week-1 / video / Gradient descent -> success
+- [2026-10-08T22:15:52+08:00] machine-learning / week-1 / video / Running gradient descent -> success
+- [2026-10-08T22:15:52+08:00] machine-learning / week-2 / video / Feature scaling part 2 -> success
+- [2026-10-08T22:15:52+08:00] machine-learning / week-3 / video / Motivations -> success
+- [2026-10-08T22:15:52+08:00] machine-learning / week-3 / video / Regularized logistic regression -> success
+- [2026-10-08T22:15:52+08:00] machine-learning / week-3 / video / Andrew Ng and Fei-Fei Li on Human-Centered AI -> success
+- [2026-10-08T22:15:52+08:00] machine-learning / week-2 / video / Feature engineering -> success
+- [2026-10-08T22:15:52+08:00] machine-learning / week-3 / video / The problem of overfitting -> success
+- [2026-10-08T22:15:52+08:00] machine-learning / week-1 / video / Cost function intuition -> success
+- [2026-10-08T22:15:52+08:00] machine-learning / week-2 / video / Multiple features -> success
+- [2026-10-08T22:15:52+08:00] machine-learning / week-3 / video / Gradient Descent Implementation -> success
+- [2026-10-08T22:15:52+08:00] machine-learning / week-3 / video / Addressing overfitting -> success
+- [2026-10-08T22:15:52+08:00] machine-learning / week-1 / video / Applications of machine learning -> success
+- [2026-10-08T22:15:52+08:00] machine-learning / week-2 / video / Vectorization part 1 -> success
+- [2026-10-08T22:15:52+08:00] machine-learning / week-1 / video / Welcome to machine learning! -> success
+- [2026-10-08T22:15:52+08:00] machine-learning / week-1 / video / Unsupervised learning part 2 -> success
+- [2026-10-08T22:15:52+08:00] machine-learning / week-2 / video / Feature scaling part 1 -> success
+- [2026-10-08T22:15:52+08:00] machine-learning / week-1 / video / Gradient descent for linear regression -> success
+- [2026-10-08T22:15:52+08:00] machine-learning / week-2 / video / Gradient descent for multiple linear regression -> success
+- [2026-10-08T22:15:52+08:00] machine-learning / week-1 / video / Jupyter Notebooks -> success
+- [2026-10-08T22:15:52+08:00] machine-learning / week-1 / video / Linear regression model part 2 -> success
+- [2026-10-08T22:15:52+08:00] machine-learning / week-1 / reading / Join the DeepLearning.AI Forum to ask questions, get support -> success
+- [2026-10-08T22:15:52+08:00] machine-learning / week-2 / video / Polynomial regression -> success
+- [2026-10-08T22:15:52+08:00] machine-learning / week-1 / video / Learning rate -> success
+- [2026-10-08T22:15:52+08:00] machine-learning / week-1 / video / Visualization examples -> success
+- [2026-10-08T22:15:52+08:00] machine-learning / week-2 / video / Vectorization part 2 -> success
+- [2026-10-08T22:15:52+08:00] machine-learning / week-1 / video / What is machine learning? -> success
+- [2026-10-08T22:15:52+08:00] machine-learning / week-1 / video / Supervised learning part 2 -> success
+- [2026-10-08T22:15:52+08:00] machine-learning / week-1 / video / Visualizing the cost function -> success
+- [2026-10-08T22:15:52+08:00] machine-learning / week-3 / video / Decision boundary -> success
+- [2026-10-08T22:15:52+08:00] machine-learning / week-2 / video / Checking gradient descent for convergence -> success
+- [2026-10-08T22:15:52+08:00] machine-learning / week-1 / video / Supervised learning part 1 -> success
+- [2026-10-08T22:15:52+08:00] machine-learning / week-1 / video / Implementing gradient descent -> success
+- [2026-10-08T22:15:52+08:00] machine-learning / week-1 / video / Unsupervised learning part 1 -> success
+- [2026-10-08T22:15:52+08:00] machine-learning / week-3 / reading / [IMPORTANT] Reminder about end of access to Lab Notebooks -> success
+- [2026-10-08T22:15:52+08:00] machine-learning / week-3 / video / Cost function with regularization -> success
+- [2026-10-08T22:15:52+08:00] machine-learning / week-3 / video / Regularized linear regression -> success
+- [2026-10-08T22:15:52+08:00] machine-learning / week-3 / reading / Acknowledgments -> success
+- [2026-10-08T22:15:52+08:00] machine-learning / week-3 / video / Simplified Cost Function for Logistic Regression -> success
+- [2026-10-08T22:15:52+08:00] machine-learning / week-3 / video / Logistic regression -> success
+- [2026-10-08T22:15:52+08:00] machine-learning-projects / week-1 / video / Improving your Model Performance -> success
+- [2026-10-08T22:15:52+08:00] machine-learning-projects / week-1 / video / Train/Dev/Test Distributions -> success
+- [2026-10-08T22:15:52+08:00] machine-learning-projects / week-2 / video / Addressing Data Mismatch -> success
+- [2026-10-08T22:15:52+08:00] machine-learning-projects / week-1 / reading / Machine Learning Flight Simulator (Introduction to the Quizz -> success
+- [2026-10-08T22:15:52+08:00] machine-learning-projects / week-1 / video / Orthogonalization -> success
+- [2026-10-08T22:15:52+08:00] machine-learning-projects / week-1 / video / Why Human-level Performance? -> success
+- [2026-10-08T22:15:52+08:00] machine-learning-projects / week-1 / video / Andrej Karpathy Interview -> success
+- [2026-10-08T22:15:52+08:00] machine-learning-projects / week-2 / video / Carrying Out Error Analysis -> success
+- [2026-10-08T22:15:52+08:00] machine-learning-projects / week-2 / video / Whether to use End-to-end Deep Learning -> success
+- [2026-10-08T22:15:52+08:00] machine-learning-projects / week-1 / video / Size of the Dev and Test Sets -> success
+- [2026-10-08T22:15:52+08:00] machine-learning-projects / week-1 / reading / Lecture Notes W1 -> success
+- [2026-10-08T22:15:52+08:00] machine-learning-projects / week-2 / video / Bias and Variance with Mismatched Data Distributions -> success
+- [2026-10-08T22:15:52+08:00] machine-learning-projects / week-2 / video / Cleaning Up Incorrectly Labeled Data -> success
+- [2026-10-08T22:15:52+08:00] machine-learning-projects / week-2 / video / Build your First System Quickly, then Iterate -> success
+- [2026-10-08T22:15:52+08:00] machine-learning-projects / week-2 / video / What is End-to-end Deep Learning? -> success
+- [2026-10-08T22:15:52+08:00] machine-learning-projects / week-2 / video / Ruslan Salakhutdinov Interview -> success
+- [2026-10-08T22:15:52+08:00] machine-learning-projects / week-2 / video / Multi-task Learning -> success
+- [2026-10-08T22:15:52+08:00] machine-learning-projects / week-1 / video / Avoidable Bias -> success
+- [2026-10-08T22:15:52+08:00] machine-learning-projects / week-1 / video / Surpassing Human-level Performance -> success
+- [2026-10-08T22:15:52+08:00] machine-learning-projects / week-2 / reading / Acknowledgments -> success
+- [2026-10-08T22:15:52+08:00] machine-learning-projects / week-2 / reading / Lecture Notes W2 -> success
+- [2026-10-08T22:15:52+08:00] machine-learning / week-1 / reading / Join the DeepLearning.AI Forum to ask questions, get support -> success
+- [2026-10-08T22:15:52+08:00] machine-learning-projects / week-1 / video / Satisficing and Optimizing Metric -> success
+- [2026-10-08T22:15:52+08:00] machine-learning-projects / week-1 / video / When to Change Dev/Test Sets and Metrics? -> success
+- [2026-10-08T22:15:52+08:00] machine-learning-projects / week-1 / video / Single Number Evaluation Metric -> success
+- [2026-10-08T22:15:52+08:00] machine-learning-projects / week-2 / video / Transfer Learning -> success
+- [2026-10-08T22:15:52+08:00] machine-learning-projects / week-1 / video / Understanding Human-level Performance -> success
+- [2026-10-08T22:15:52+08:00] machine-learning-projects / week-2 / video / Training and Testing on Different Distributions -> success
+- [2026-10-08T22:15:52+08:00] machine-learning-projects / week-1 / video / Why ML Strategy -> success
+- [2026-10-08T22:15:52+08:00] neural-networks-deep-learning / week-2 / video / Derivatives -> success
+- [2026-10-08T22:15:52+08:00] neural-networks-deep-learning / week-2 / video / Derivatives with a Computation Graph -> success
+- [2026-10-08T22:15:52+08:00] neural-networks-deep-learning / week-1 / video / Supervised Learning with Neural Networks -> success
+- [2026-10-08T22:15:52+08:00] neural-networks-deep-learning / week-4 / reading / Optional Reading: Feedforward Neural Networks in Depth -> success
+- [2026-10-08T22:15:52+08:00] neural-networks-deep-learning / week-3 / video / Activation Functions -> success
+- [2026-10-08T22:15:52+08:00] neural-networks-deep-learning / week-2 / video / Computation Graph -> success
+- [2026-10-08T22:15:52+08:00] neural-networks-deep-learning / week-2 / reading / Lecture Notes W2 -> success
+- [2026-10-08T22:15:52+08:00] neural-networks-deep-learning / week-2 / video / Logistic Regression Gradient Descent -> success
+- [2026-10-08T22:15:52+08:00] neural-networks-deep-learning / week-1 / video / About this Course -> success
+- [2026-10-08T22:15:52+08:00] neural-networks-deep-learning / week-3 / video / Backpropagation Intuition (Optional) -> success
+- [2026-10-08T22:15:52+08:00] neural-networks-deep-learning / week-4 / video / Deep L-layer Neural Network -> success
+- [2026-10-08T22:15:52+08:00] neural-networks-deep-learning / week-2 / video / A Note on Python/Numpy Vectors -> success
+- [2026-10-08T22:15:52+08:00] neural-networks-deep-learning / week-2 / video / Gradient Descent -> success
+- [2026-10-08T22:15:52+08:00] neural-networks-deep-learning / week-4 / reading / Confusing Output from the AutoGrader -> success
+- [2026-10-08T22:15:52+08:00] neural-networks-deep-learning / week-4 / reading / Lecture Notes W4 -> success
+- [2026-10-08T22:15:52+08:00] neural-networks-deep-learning / week-2 / reading / Derivation of DL/dz (Optional) -> success
+- [2026-10-08T22:15:52+08:00] neural-networks-deep-learning / week-1 / reading / Frequently Asked Questions -> success
+- [2026-10-08T22:15:52+08:00] neural-networks-deep-learning / week-2 / video / Quick tour of Jupyter/iPython Notebooks -> success
+- [2026-10-08T22:15:52+08:00] neural-networks-deep-learning / week-1 / video / Welcome -> success
+- [2026-10-08T22:15:52+08:00] neural-networks-deep-learning / week-1 / video / Geoffrey Hinton Interview -> success
+- [2026-10-08T22:15:52+08:00] neural-networks-deep-learning / week-4 / reading / [IMPORTANT] Reminder about end of access to Lab Notebooks -> success
+- [2026-10-08T22:15:52+08:00] neural-networks-deep-learning / week-4 / reading / Clarification For: What does this have to do with the brain? -> success
+- [2026-10-08T22:15:52+08:00] neural-networks-deep-learning / week-1 / video / What is a Neural Network? -> success
+- [2026-10-08T22:15:52+08:00] neural-networks-deep-learning / week-2 / video / Pieter Abbeel Interview -> success
+- [2026-10-08T22:15:52+08:00] neural-networks-deep-learning / week-3 / video / Neural Network Representation -> success
+- [2026-10-08T22:15:52+08:00] neural-networks-deep-learning / week-1 / reading / Lecture Notes W1 -> success
+- [2026-10-08T22:15:52+08:00] neural-networks-deep-learning / week-2 / video / Vectorizing Logistic Regression's Gradient Output -> success
+- [2026-10-08T22:15:52+08:00] neural-networks-deep-learning / week-2 / video / Logistic Regression -> success
+- [2026-10-08T22:15:52+08:00] neural-networks-deep-learning / week-4 / video / Forward Propagation in a Deep Network -> success
+- [2026-10-08T22:15:52+08:00] neural-networks-deep-learning / week-2 / video / Vectorizing Logistic Regression -> success
+- [2026-10-08T22:15:52+08:00] neural-networks-deep-learning / week-2 / reading / Deep Learning Honor Code -> success
+- [2026-10-08T22:15:52+08:00] machine-learning / week-1 / reading / Join the DeepLearning.AI Forum to ask questions, get support -> success
+- [2026-10-08T22:15:52+08:00] neural-networks-deep-learning / week-2 / video / Vectorization -> success
+- [2026-10-08T22:15:52+08:00] neural-networks-deep-learning / week-4 / reading / References  -> success
+- [2026-10-08T22:15:52+08:00] neural-networks-deep-learning / week-2 / reading / Programming Assignment FAQ -> success
+- [2026-10-08T22:15:52+08:00] neural-networks-deep-learning / week-3 / video / Why do you need Non-Linear Activation Functions? -> success
+- [2026-10-08T22:15:52+08:00] neural-networks-deep-learning / week-4 / video / What does this have to do with the brain? -> success
+- [2026-10-08T22:15:52+08:00] neural-networks-deep-learning / week-2 / video / More Derivative Examples -> success
+- [2026-10-08T22:15:52+08:00] neural-networks-deep-learning / week-1 / video / Why is Deep Learning taking off? -> success
+- [2026-10-08T22:15:52+08:00] neural-networks-deep-learning / week-3 / video / Derivatives of Activation Functions -> success
+- [2026-10-08T22:15:52+08:00] neural-networks-deep-learning / week-3 / video / Neural Networks Overview -> success
+- [2026-10-08T22:15:52+08:00] neural-networks-deep-learning / week-4 / video / Getting your Matrix Dimensions Right -> success
+- [2026-10-08T22:15:52+08:00] neural-networks-deep-learning / week-4 / video / Why Deep Representations? -> success
+- [2026-10-08T22:15:52+08:00] neural-networks-deep-learning / week-2 / video / Explanation of Logistic Regression Cost Function (Optional) -> success
+- [2026-10-08T22:15:52+08:00] neural-networks-deep-learning / week-4 / video / Parameters vs Hyperparameters -> success
+- [2026-10-08T22:15:52+08:00] neural-networks-deep-learning / week-3 / video / Computing a Neural Network's Output -> success
+- [2026-10-08T22:15:52+08:00] neural-networks-deep-learning / week-2 / video / Broadcasting in Python -> success
+- [2026-10-08T22:15:52+08:00] neural-networks-deep-learning / week-2 / video / Gradient Descent on m Examples -> success
+- [2026-10-08T22:15:52+08:00] neural-networks-deep-learning / week-4 / video / Building Blocks of Deep Neural Networks -> success
+- [2026-10-08T22:15:52+08:00] neural-networks-deep-learning / week-3 / reading / Lecture Notes W3 -> success
+- [2026-10-08T22:15:52+08:00] neural-networks-deep-learning / week-3 / video / Gradient Descent for Neural Networks -> success
+- [2026-10-08T22:15:52+08:00] neural-networks-deep-learning / week-3 / video / Ian Goodfellow Interview -> success
+- [2026-10-08T22:15:52+08:00] neural-networks-deep-learning / week-2 / reading / (Optional) Downloading your Notebook, Downloading your Works -> success
+- [2026-10-08T22:15:52+08:00] neural-networks-deep-learning / week-3 / video / Random Initialization -> success
+- [2026-10-08T22:15:52+08:00] neural-networks-deep-learning / week-3 / video / Explanation for Vectorized Implementation -> success
+- [2026-10-08T22:15:52+08:00] neural-networks-deep-learning / week-4 / reading / Acknowledgments -> success
+- [2026-10-08T22:15:52+08:00] neural-networks-deep-learning / week-2 / video / Logistic Regression Cost Function -> success
+- [2026-10-08T22:15:52+08:00] neural-networks-deep-learning / week-2 / video / Binary Classification -> success
+- [2026-10-08T22:15:52+08:00] neural-networks-deep-learning / week-3 / video / Vectorizing Across Multiple Examples -> success
+- [2026-10-08T22:15:52+08:00] neural-networks-deep-learning / week-4 / video / Forward and Backward Propagation -> success
+- [2026-10-08T22:15:52+08:00] neural-networks-deep-learning / week-2 / video / More Vectorization Examples -> success
+- [2026-10-08T22:15:52+08:00] nlp-sequence-models / week-1 / video / Why Sequence Models? -> success
+- [2026-10-08T22:15:52+08:00] nlp-sequence-models / week-3 / video / Beam Search -> success
+- [2026-10-08T22:15:52+08:00] nlp-sequence-models / week-3 / reading / Clarifications about Upcoming Attention Model Video  -> success
+- [2026-10-08T22:15:52+08:00] nlp-sequence-models / week-2 / reading / Lecture Notes W2 -> success
+- [2026-10-08T22:15:52+08:00] nlp-sequence-models / week-2 / video / Word Representation -> success
+- [2026-10-08T22:15:52+08:00] nlp-sequence-models / week-2 / video / Word2Vec -> success
+- [2026-10-08T22:15:52+08:00] nlp-sequence-models / week-1 / video / Gated Recurrent Unit (GRU) -> success
+- [2026-10-08T22:15:52+08:00] nlp-sequence-models / week-1 / video / Notation -> success
+- [2026-10-08T22:15:52+08:00] nlp-sequence-models / week-3 / video / Refinements to Beam Search -> success
+- [2026-10-08T22:15:52+08:00] nlp-sequence-models / week-2 / video / Learning Word Embeddings -> success
+- [2026-10-08T22:15:52+08:00] nlp-sequence-models / week-4 / video / Conclusion and Thank You! -> success
+- [2026-10-08T22:15:52+08:00] nlp-sequence-models / week-1 / video / Backpropagation Through Time -> success
+- [2026-10-08T22:15:52+08:00] nlp-sequence-models / week-1 / video / Different Types of RNNs -> success
+- [2026-10-08T22:15:52+08:00] nlp-sequence-models / week-4 / reading / Lecture Notes W4 -> success
+- [2026-10-08T22:15:52+08:00] nlp-sequence-models / week-1 / video / Deep RNNs -> success
+- [2026-10-08T22:15:52+08:00] nlp-sequence-models / week-1 / video / Recurrent Neural Network Model -> success
+- [2026-10-08T22:15:52+08:00] nlp-sequence-models / week-1 / video / Bidirectional RNN -> success
+- [2026-10-08T22:15:52+08:00] nlp-sequence-models / week-1 / video / Language Model and Sequence Generation -> success
+- [2026-10-08T22:15:52+08:00] nlp-sequence-models / week-3 / video / Basic Models -> success
+- [2026-10-08T22:15:52+08:00] nlp-sequence-models / week-2 / video / Negative Sampling -> success
+- [2026-10-08T22:15:52+08:00] nlp-sequence-models / week-2 / video / GloVe Word Vectors -> success
+- [2026-10-08T22:15:52+08:00] nlp-sequence-models / week-1 / reading / Lecture Notes W1 -> success
+- [2026-10-08T22:15:52+08:00] nlp-sequence-models / week-4 / video / Multi-Head Attention -> success
+- [2026-10-08T22:15:52+08:00] nlp-sequence-models / week-2 / video / Sentiment Classification -> success
+- [2026-10-08T22:15:52+08:00] nlp-sequence-models / week-2 / video / Embedding Matrix -> success
+- [2026-10-08T22:15:52+08:00] nlp-sequence-models / week-3 / video / Bleu Score (Optional) -> success
+- [2026-10-08T22:15:52+08:00] nlp-sequence-models / week-4 / video / Transformer Network -> success
+- [2026-10-08T22:15:52+08:00] nlp-sequence-models / week-1 / video / Long Short Term Memory (LSTM) -> success
+- [2026-10-08T22:15:52+08:00] nlp-sequence-models / week-2 / reading / Clarifications about Upcoming GloVe Word Vectors Video  -> success
+- [2026-10-08T22:15:52+08:00] nlp-sequence-models / week-3 / video / Trigger Word Detection -> success
+- [2026-10-08T22:15:52+08:00] nlp-sequence-models / week-4 / video / Self-Attention -> success
+- [2026-10-08T22:15:52+08:00] nlp-sequence-models / week-3 / video / Attention Model -> success
+- [2026-10-08T22:15:52+08:00] nlp-sequence-models / week-1 / video / Sampling Novel Sequences -> success
+- [2026-10-08T22:15:52+08:00] nlp-sequence-models / week-4 / reading / [IMPORTANT] Reminder about end of access to Lab Notebooks -> success
+- [2026-10-08T22:15:52+08:00] machine-learning / week-1 / reading / Join the DeepLearning.AI Forum to ask questions, get support -> success
+- [2026-10-08T22:15:52+08:00] nlp-sequence-models / week-4 / reading / (Optional) Opportunity to Mentor Other Learners -> success
+- [2026-10-08T22:15:52+08:00] nlp-sequence-models / week-1 / video / Vanishing Gradients with RNNs -> success
+- [2026-10-08T22:15:52+08:00] nlp-sequence-models / week-2 / video / Using Word Embeddings -> success
+- [2026-10-08T22:15:52+08:00] nlp-sequence-models / week-3 / video / Attention Model Intuition -> success
+- [2026-10-08T22:15:52+08:00] nlp-sequence-models / week-4 / reading / Acknowledgments -> success
+- [2026-10-08T22:15:52+08:00] nlp-sequence-models / week-2 / video / Properties of Word Embeddings -> success
+- [2026-10-08T22:15:52+08:00] nlp-sequence-models / week-3 / video / Speech Recognition -> success
+- [2026-10-08T22:15:52+08:00] nlp-sequence-models / week-3 / reading / Lecture Notes W3 -> success
+- [2026-10-08T22:15:52+08:00] nlp-sequence-models / week-4 / reading / References -> success
+- [2026-10-08T22:15:52+08:00] nlp-sequence-models / week-3 / video / Error Analysis in Beam Search -> success
+- [2026-10-08T22:15:52+08:00] nlp-sequence-models / week-3 / video / Picking the Most Likely Sentence -> success
+- [2026-10-08T22:15:52+08:00] nlp-sequence-models / week-1 / reading / (Optional) Downloading your Notebook, Downloading your Works -> success
+- [2026-10-08T22:15:52+08:00] nlp-sequence-models / week-1 / reading / Clarifications about Upcoming Long Short Term Memory (LSTM)  -> success
+- [2026-10-08T22:15:52+08:00] nlp-sequence-models / week-1 / reading / Clarifications about Upcoming Gated Recurrent Unit (GRU) Vid -> success
+- [2026-10-08T22:15:52+08:00] nlp-sequence-models / week-4 / video / Transformer Network Intuition -> success
+- [2026-10-08T22:15:52+08:00] nlp-sequence-models / week-2 / video / Debiasing Word Embeddings -> success
+- [2026-10-08T22:15:52+08:00] unsupervised-learning-recommenders-reinforcement-learning / week-1 / video / Finding unusual events -> success
+- [2026-10-08T22:15:52+08:00] unsupervised-learning-recommenders-reinforcement-learning / week-1 / video / Gaussian (normal) distribution -> success
+- [2026-10-08T22:15:52+08:00] unsupervised-learning-recommenders-reinforcement-learning / week-2 / video / PCA in code (optional) -> success
+- [2026-10-08T22:15:52+08:00] unsupervised-learning-recommenders-reinforcement-learning / week-3 / video / Bellman Equation -> success
+- [2026-10-08T22:15:52+08:00] unsupervised-learning-recommenders-reinforcement-learning / week-3 / video / The Return in reinforcement learning -> success
+- [2026-10-08T22:15:52+08:00] unsupervised-learning-recommenders-reinforcement-learning / week-2 / video / TensorFlow implementation of content-based filtering -> success
+- [2026-10-08T22:15:52+08:00] unsupervised-learning-recommenders-reinforcement-learning / week-2 / video / Reducing the number of features (optional) -> success
+- [2026-10-08T22:15:52+08:00] unsupervised-learning-recommenders-reinforcement-learning / week-1 / video / Choosing what features to use -> success
+- [2026-10-08T22:15:52+08:00] unsupervised-learning-recommenders-reinforcement-learning / week-2 / video / Collaborative filtering vs Content-based filtering -> success
+- [2026-10-08T22:15:52+08:00] unsupervised-learning-recommenders-reinforcement-learning / week-3 / video / Making decisions: Policies in reinforcement learning -> success
+- [2026-10-08T22:15:52+08:00] unsupervised-learning-recommenders-reinforcement-learning / week-3 / video / Lunar lander -> success
+- [2026-10-08T22:15:52+08:00] unsupervised-learning-recommenders-reinforcement-learning / week-2 / video / Making recommendations -> success
+- [2026-10-08T22:15:52+08:00] unsupervised-learning-recommenders-reinforcement-learning / week-2 / video / Ethical use of recommender systems -> success
+- [2026-10-08T22:15:52+08:00] unsupervised-learning-recommenders-reinforcement-learning / week-2 / video / Using per-item features -> success
+- [2026-10-08T22:15:52+08:00] unsupervised-learning-recommenders-reinforcement-learning / week-3 / reading / Acknowledgments -> success
+- [2026-10-08T22:15:52+08:00] unsupervised-learning-recommenders-reinforcement-learning / week-2 / video / Binary labels: favs, likes and clicks -> success
+- [2026-10-08T22:15:52+08:00] unsupervised-learning-recommenders-reinforcement-learning / week-3 / video / Learning the state-value function -> success
+- [2026-10-08T22:15:52+08:00] unsupervised-learning-recommenders-reinforcement-learning / week-1 / video / Anomaly detection vs. supervised learning -> success
+- [2026-10-08T22:15:52+08:00] unsupervised-learning-recommenders-reinforcement-learning / week-3 / reading / (Optional) Opportunity to Mentor Other Learners -> success
+- [2026-10-08T22:15:52+08:00] unsupervised-learning-recommenders-reinforcement-learning / week-1 / video / Optimization objective -> success
+- [2026-10-08T22:15:52+08:00] unsupervised-learning-recommenders-reinforcement-learning / week-3 / video / State-action value function definition -> success
+- [2026-10-08T22:15:52+08:00] unsupervised-learning-recommenders-reinforcement-learning / week-2 / video / Recommending from a large catalogue -> success
+- [2026-10-08T22:15:52+08:00] unsupervised-learning-recommenders-reinforcement-learning / week-3 / video / Review of key concepts -> success
+- [2026-10-08T22:15:52+08:00] unsupervised-learning-recommenders-reinforcement-learning / week-1 / video / K-means algorithm -> success
+- [2026-10-08T22:15:52+08:00] unsupervised-learning-recommenders-reinforcement-learning / week-3 / video / Algorithm refinement: ϵ-greedy policy -> success
+- [2026-10-08T22:15:52+08:00] unsupervised-learning-recommenders-reinforcement-learning / week-3 / video / Algorithm refinement: Improved neural network architecture -> success
+- [2026-10-08T22:15:52+08:00] unsupervised-learning-recommenders-reinforcement-learning / week-2 / video / Mean normalization -> success
+- [2026-10-08T22:15:52+08:00] unsupervised-learning-recommenders-reinforcement-learning / week-3 / video / Example of continuous state space applications -> success
+- [2026-10-08T22:15:52+08:00] unsupervised-learning-recommenders-reinforcement-learning / week-1 / video / Choosing the number of clusters -> success
+- [2026-10-08T22:15:52+08:00] unsupervised-learning-recommenders-reinforcement-learning / week-1 / video / Initializing K-means -> success
+- [2026-10-08T22:15:52+08:00] unsupervised-learning-recommenders-reinforcement-learning / week-2 / video / PCA algorithm (optional) -> success
+- [2026-10-08T22:15:52+08:00] unsupervised-learning-recommenders-reinforcement-learning / week-3 / video / State-action value function example -> success
+- [2026-10-08T22:15:52+08:00] machine-learning / week-1 / reading / Join the DeepLearning.AI Forum to ask questions, get support -> success
+- [2026-10-08T22:15:52+08:00] unsupervised-learning-recommenders-reinforcement-learning / week-1 / video / Anomaly detection algorithm -> success
+- [2026-10-08T22:15:52+08:00] unsupervised-learning-recommenders-reinforcement-learning / week-2 / video / Finding related items -> success
+- [2026-10-08T22:15:52+08:00] unsupervised-learning-recommenders-reinforcement-learning / week-2 / video / Collaborative filtering algorithm -> success
+- [2026-10-08T22:15:52+08:00] unsupervised-learning-recommenders-reinforcement-learning / week-3 / reading / [IMPORTANT] Reminder about end of access to Lab Notebooks -> success
+- [2026-10-08T22:15:52+08:00] unsupervised-learning-recommenders-reinforcement-learning / week-3 / video / Random (stochastic) environment (Optional) -> success
+- [2026-10-08T22:15:52+08:00] unsupervised-learning-recommenders-reinforcement-learning / week-3 / video / What is Reinforcement Learning? -> success
+- [2026-10-08T22:15:52+08:00] unsupervised-learning-recommenders-reinforcement-learning / week-1 / video / Welcome! -> success
+- [2026-10-08T22:15:52+08:00] unsupervised-learning-recommenders-reinforcement-learning / week-3 / video / Algorithm refinement:  Mini-batch and soft updates (optional -> success
+- [2026-10-08T22:15:52+08:00] unsupervised-learning-recommenders-reinforcement-learning / week-3 / video / The state of reinforcement learning -> success
+- [2026-10-08T22:15:52+08:00] unsupervised-learning-recommenders-reinforcement-learning / week-3 / video / Mars rover example -> success
+- [2026-10-08T22:15:52+08:00] unsupervised-learning-recommenders-reinforcement-learning / week-3 / video / Andrew Ng and Chelsea Finn on AI and Robotics -> success
+- [2026-10-08T22:15:52+08:00] unsupervised-learning-recommenders-reinforcement-learning / week-2 / video / Deep learning for content-based filtering -> success
+- [2026-10-08T22:15:52+08:00] unsupervised-learning-recommenders-reinforcement-learning / week-2 / video / TensorFlow implementation of collaborative filtering -> success
+- [2026-10-08T22:15:52+08:00] unsupervised-learning-recommenders-reinforcement-learning / week-1 / video / Developing and evaluating an anomaly detection system -> success
+- [2026-10-08T22:15:52+08:00] unsupervised-learning-recommenders-reinforcement-learning / week-1 / video / K-means intuition -> success
+- [2026-10-08T22:15:52+08:00] unsupervised-learning-recommenders-reinforcement-learning / week-3 / video / Summary and thank you -> success
+- [2026-10-08T22:15:52+08:00] unsupervised-learning-recommenders-reinforcement-learning / week-1 / video / What is clustering? -> success
+- [2026-10-08T22:17:35+08:00] advanced-learning-algorithms / week-1 / reading / Join the DeepLearning.AI Forum to ask questions, get support -> success
+- [2026-10-08T22:17:35+08:00] unsupervised-learning-recommenders-reinforcement-learning / week-1 / reading / Join the DeepLearning.AI Forum to ask questions, get support -> success
+- [2026-10-08T22:17:35+08:00] neural-networks-deep-learning / week-1 / reading / Join the DeepLearning.AI Forum to ask questions, get support -> success
+- [2026-10-08T22:17:35+08:00] deep-neural-network / week-1 / reading / Join the DeepLearning.AI Forum to ask questions, get support -> success
+- [2026-10-08T22:17:35+08:00] machine-learning-projects / week-1 / reading / Join the DeepLearning.AI Forum to ask questions, get support -> success
+- [2026-10-08T22:17:35+08:00] convolutional-neural-networks / week-1 / reading / Join the DeepLearning.AI Forum to ask questions, get support -> success
+- [2026-10-08T22:17:35+08:00] nlp-sequence-models / week-1 / reading / Join the DeepLearning.AI Forum to ask questions, get support -> success
+- [2026-10-08T22:21:52+08:00] machine-learning / week-1 / quiz / Practice quiz: Supervised vs unsupervised learning -> success
+- [2026-10-08T22:21:52+08:00] item machine-learning -> FAILED: not in manifest
+- [2026-10-08T22:22:03+08:00] machine-learning / week-1 / quiz / Practice quiz: Supervised vs unsupervised learning -> success
+- [2026-10-08T22:52:08+08:00] machine-learning / week-1 / quiz / Practice quiz: Regression -> success
+- [2026-10-08T22:52:08+08:00] machine-learning / week-1 / quiz / Practice quiz: Train the model with gradient descent -> success
+- [2026-10-08T22:52:08+08:00] machine-learning / week-2 / quiz / Practice quiz: Multiple linear regression -> success
+- [2026-10-08T22:52:08+08:00] machine-learning / week-2 / quiz / Practice quiz: Gradient descent in practice -> success
+- [2026-10-08T22:52:08+08:00] machine-learning / week-3 / quiz / Practice quiz: Classification with logistic regression -> success
+- [2026-10-08T22:52:08+08:00] machine-learning / week-3 / quiz / Practice quiz: Cost function for logistic regression -> success
+- [2026-10-08T22:52:08+08:00] machine-learning / week-3 / quiz / Practice quiz: Gradient descent for logistic regression -> success
+- [2026-10-08T22:52:08+08:00] machine-learning / week-3 / quiz / Practice quiz: The problem of overfitting -> success
+- [2026-10-08T22:52:08+08:00] advanced-learning-algorithms / week-1 / quiz / Practice quiz: Neural networks intuition -> success
+- [2026-10-08T22:52:08+08:00] advanced-learning-algorithms / week-1 / quiz / Practice quiz: Neural network model -> success
+- [2026-10-08T22:52:08+08:00] advanced-learning-algorithms / week-1 / quiz / Practice quiz: TensorFlow implementation -> success
+- [2026-10-08T22:52:08+08:00] advanced-learning-algorithms / week-1 / quiz / Practice quiz: Neural network implementation in Python -> success
+- [2026-10-08T22:52:08+08:00] advanced-learning-algorithms / week-2 / quiz / Practice quiz: Neural Network Training -> success
+- [2026-10-08T22:52:08+08:00] advanced-learning-algorithms / week-2 / quiz / Practice quiz: Activation Functions -> success
+- [2026-10-08T22:52:08+08:00] advanced-learning-algorithms / week-2 / quiz / Practice quiz: Multiclass Classification -> success
+- [2026-10-08T22:52:08+08:00] advanced-learning-algorithms / week-2 / quiz / Practice quiz: Additional Neural Network Concepts -> success
+- [2026-10-08T22:52:08+08:00] advanced-learning-algorithms / week-3 / quiz / Practice quiz: Advice for applying machine learning -> success
+- [2026-10-08T22:52:08+08:00] advanced-learning-algorithms / week-3 / quiz / Practice quiz: Bias and variance -> success
+- [2026-10-08T22:52:08+08:00] advanced-learning-algorithms / week-3 / quiz / Practice quiz: Machine learning development process -> success
+- [2026-10-08T22:52:08+08:00] advanced-learning-algorithms / week-4 / quiz / Practice quiz: Decision trees -> success
+- [2026-10-08T22:52:08+08:00] advanced-learning-algorithms / week-4 / quiz / Practice quiz: Decision tree learning -> success
+- [2026-10-08T22:52:08+08:00] advanced-learning-algorithms / week-4 / quiz / Practice quiz: Tree ensembles -> success
+- [2026-10-08T22:52:08+08:00] unsupervised-learning-recommenders-reinforcement-learning / week-1 / quiz / Clustering -> success
+- [2026-10-08T22:52:08+08:00] unsupervised-learning-recommenders-reinforcement-learning / week-1 / quiz / Anomaly detection -> success
+- [2026-10-08T22:52:08+08:00] unsupervised-learning-recommenders-reinforcement-learning / week-2 / quiz / Collaborative Filtering -> success
+- [2026-10-08T22:52:08+08:00] unsupervised-learning-recommenders-reinforcement-learning / week-2 / quiz / Recommender systems implementation -> success
+- [2026-10-08T22:52:08+08:00] unsupervised-learning-recommenders-reinforcement-learning / week-2 / quiz / Content-based filtering -> success
+- [2026-10-08T22:52:08+08:00] unsupervised-learning-recommenders-reinforcement-learning / week-3 / quiz / Reinforcement learning introduction -> success
+- [2026-10-08T22:52:08+08:00] unsupervised-learning-recommenders-reinforcement-learning / week-3 / quiz / State-action value function -> success
+- [2026-10-08T22:52:08+08:00] unsupervised-learning-recommenders-reinforcement-learning / week-3 / quiz / Continuous state spaces -> success
+- [2026-10-08T22:52:08+08:00] neural-networks-deep-learning / week-1 / quiz / Introduction to Deep Learning  -> success
+- [2026-10-08T22:52:08+08:00] neural-networks-deep-learning / week-2 / quiz / Neural Network Basics                -> success
+- [2026-10-08T22:52:08+08:00] neural-networks-deep-learning / week-3 / quiz / Shallow Neural Networks                  -> success
+- [2026-10-08T22:52:08+08:00] neural-networks-deep-learning / week-4 / quiz / Key Concepts on Deep Neural Networks                  -> success
+- [2026-10-08T22:52:08+08:00] deep-neural-network / week-1 / quiz / Practical Aspects of Deep Learning    -> success
+- [2026-10-08T22:52:08+08:00] deep-neural-network / week-2 / quiz / Optimization Algorithms   -> success
+- [2026-10-08T22:52:08+08:00] deep-neural-network / week-3 / quiz / Hyperparameter tuning, Batch Normalization, Programming Fram -> success
+- [2026-10-08T22:52:08+08:00] machine-learning-projects / week-1 / quiz / Bird Recognition in the City of Peacetopia (Quiz Case Study) -> success
+- [2026-10-08T22:52:08+08:00] machine-learning-projects / week-2 / quiz / Autonomous Driving (Quiz Case Study)    -> success
+- [2026-10-08T22:52:08+08:00] convolutional-neural-networks / week-1 / quiz / The Basics of ConvNets     -> success
+- [2026-10-08T22:52:08+08:00] convolutional-neural-networks / week-2 / quiz / Deep Convolutional Models     -> success
+- [2026-10-08T22:52:08+08:00] convolutional-neural-networks / week-3 / quiz / Detection Algorithms     -> success
+- [2026-10-08T22:52:08+08:00] convolutional-neural-networks / week-4 / quiz / Special Applications: Face Recognition & Neural Style Transf -> success
+- [2026-10-08T22:52:08+08:00] nlp-sequence-models / week-1 / quiz / Recurrent Neural Networks   -> success
+- [2026-10-08T22:52:08+08:00] nlp-sequence-models / week-2 / quiz / Natural Language Processing & Word Embeddings   -> success
+- [2026-10-08T22:59:23+08:00] neural-networks-deep-learning / week-1 / quiz / Introduction to Deep Learning  -> success
+- [2026-10-08T22:59:23+08:00] neural-networks-deep-learning / week-2 / quiz / Neural Network Basics                -> success
+- [2026-10-08T22:59:23+08:00] neural-networks-deep-learning / week-3 / quiz / Shallow Neural Networks                  -> success
+- [2026-10-08T22:59:23+08:00] neural-networks-deep-learning / week-4 / quiz / Key Concepts on Deep Neural Networks                  -> success
+- [2026-10-08T22:59:23+08:00] deep-neural-network / week-1 / quiz / Practical Aspects of Deep Learning    -> success
+- [2026-10-08T22:59:23+08:00] machine-learning-projects / week-1 / quiz / Bird Recognition in the City of Peacetopia (Quiz Case Study) -> success
+- [2026-10-08T22:59:23+08:00] machine-learning-projects / week-2 / quiz / Autonomous Driving (Quiz Case Study)    -> success
+- [2026-10-08T22:59:23+08:00] convolutional-neural-networks / week-2 / quiz / Deep Convolutional Models     -> success
+- [2026-10-08T22:59:23+08:00] convolutional-neural-networks / week-4 / quiz / Special Applications: Face Recognition & Neural Style Transf -> success
+- [2026-10-08T22:59:23+08:00] nlp-sequence-models / week-1 / quiz / Recurrent Neural Networks   -> success
+- [2026-10-08T22:59:23+08:00] nlp-sequence-models / week-2 / quiz / Natural Language Processing & Word Embeddings   -> success
+- [2026-10-09T13:45:51+08:00] machine-learning / week-1 / lab / Python and Jupyter Notebooks -> success
+- [2026-10-09T13:45:51+08:00] machine-learning / week-1 / lab / Optional lab: Model representation -> success
+- [2026-10-09T13:45:51+08:00] machine-learning / week-1 / lab / Optional lab: Cost function -> success
+- [2026-10-09T13:45:51+08:00] machine-learning / week-1 / lab / Optional lab: Gradient descent -> success
+- [2026-10-09T15:31:22+08:00] machine-learning / week-2 / lab / Optional lab: Python, NumPy and vectorization -> success
+- [2026-10-09T16:36:32+08:00] nlp-sequence-models / week-3 / quiz / Sequence Models & Attention Mechanism   -> success
+- [2026-10-09T16:39:49+08:00] nlp-sequence-models / week-4 / quiz / Transformers   -> success
+- [2026-10-09T17:16:29+08:00] machine-learning / week-2 / lab / Optional Lab: Multiple linear regression -> success
+- [2026-10-09T17:16:29+08:00] machine-learning / week-2 / lab / Optional Lab: Feature scaling and learning rate -> success
+- [2026-10-09T17:16:29+08:00] machine-learning / week-2 / lab / Optional lab: Feature engineering and Polynomial regression -> success
+- [2026-10-09T17:16:29+08:00] machine-learning / week-2 / lab / Optional lab: Linear regression with scikit-learn -> success
+- [2026-10-09T17:16:29+08:00] machine-learning / week-2 / assignment / Week 2 practice lab: Linear regression -> success
+- [2026-10-09T17:16:29+08:00] machine-learning / week-3 / lab / Optional lab: Classification -> success
+- [2026-10-09T17:16:29+08:00] machine-learning / week-3 / lab / Optional lab: Sigmoid function and logistic regression -> success
+- [2026-10-09T17:16:29+08:00] machine-learning / week-3 / lab / Optional lab: Decision boundary -> success
+- [2026-10-09T17:16:29+08:00] machine-learning / week-3 / lab / Optional lab: Logistic loss -> success
+- [2026-10-09T17:16:29+08:00] machine-learning / week-3 / lab / Optional lab: Cost function for logistic regression -> success
+- [2026-10-09T17:16:29+08:00] machine-learning / week-3 / lab / Optional lab: Gradient descent for logistic regression -> success
+- [2026-10-09T17:16:29+08:00] machine-learning / week-3 / lab / Optional lab: Logistic regression with scikit-learn -> success
+- [2026-10-09T17:16:29+08:00] machine-learning / week-3 / lab / Optional lab: Overfitting -> success
+- [2026-10-09T17:16:29+08:00] machine-learning / week-3 / lab / Optional lab: Regularization -> success
+- [2026-10-09T17:16:29+08:00] machine-learning / week-3 / assignment / Week 3 practice lab: logistic regression -> success
+- [2026-10-09T19:12:11+08:00] advanced-learning-algorithms / week-1 / lab / Neurons and Layers -> success
+- [2026-10-09T19:12:11+08:00] advanced-learning-algorithms / week-1 / lab / Coffee Roasting in Tensorflow -> success
+- [2026-10-09T19:12:11+08:00] advanced-learning-algorithms / week-1 / lab / CoffeeRoastingNumPy -> success
+- [2026-10-09T19:12:11+08:00] advanced-learning-algorithms / week-1 / assignment / Practice Lab: Neural Networks for Binary Classification -> success
+- [2026-10-09T19:12:11+08:00] advanced-learning-algorithms / week-2 / lab / ReLU activation -> success
+- [2026-10-09T19:12:11+08:00] advanced-learning-algorithms / week-2 / lab / Softmax -> success
+- [2026-10-09T20:45:58+08:00] advanced-learning-algorithms / week-2 / lab / Optional Lab: Derivatives -> success
+- [2026-10-10T00:21:42+08:00] advanced-learning-algorithms / week-2 / lab / Multiclass -> success
+- [2026-10-10T00:22:15+08:00] advanced-learning-algorithms / week-2 / lab / Optional Lab: Back propagation -> success
+- [2026-10-10T00:44:31+08:00] advanced-learning-algorithms / week-2 / assignment / Practice Lab: Neural Networks for Multiclass classification  -> success
+- [2026-10-10T00:45:17+08:00] advanced-learning-algorithms / week-3 / lab / Optional Lab: Model Evaluation and Selection -> success
+- [2026-10-10T00:45:53+08:00] advanced-learning-algorithms / week-3 / lab / Optional Lab: Diagnosing Bias and Variance -> success
+- [2026-10-10T01:30:45+08:00] advanced-learning-algorithms / week-4 / lab / Optional Lab: Decision Trees -> success
+- [2026-10-10T01:31:27+08:00] advanced-learning-algorithms / week-4 / lab / Optional Lab: Tree Ensembles -> success
+- [2026-10-10T01:32:08+08:00] advanced-learning-algorithms / week-4 / assignment / Practice Lab: Decision Trees -> success
+- [2026-10-10T01:32:47+08:00] unsupervised-learning-recommenders-reinforcement-learning / week-1 / assignment / k-means -> success
+- [2026-10-10T01:33:27+08:00] unsupervised-learning-recommenders-reinforcement-learning / week-1 / assignment / Anomaly Detection -> success
+- [2026-10-10T01:34:06+08:00] unsupervised-learning-recommenders-reinforcement-learning / week-2 / assignment / Collaborative Filtering Recommender Systems -> success
+- [2026-10-10T01:34:46+08:00] unsupervised-learning-recommenders-reinforcement-learning / week-2 / assignment / Deep Learning for Content-Based Filtering -> success
+- [2026-10-10T01:35:28+08:00] unsupervised-learning-recommenders-reinforcement-learning / week-2 / lab / PCA and data visualization (optional) -> success
+- [2026-10-10T01:36:06+08:00] unsupervised-learning-recommenders-reinforcement-learning / week-3 / lab / State-action value function (optional lab) -> success
+- [2026-10-10T01:36:45+08:00] unsupervised-learning-recommenders-reinforcement-learning / week-3 / assignment / Reinforcement Learning -> success
+- [2026-10-10T02:02:34+08:00] neural-networks-deep-learning / week-2 / assignment / Logistic Regression with a Neural Network Mindset -> success
+- [2026-10-10T02:26:22+08:00] neural-networks-deep-learning / week-4 / assignment / Building your Deep Neural Network: Step by Step -> success
+- [2026-10-10T04:30:23+08:00] neural-networks-deep-learning / week-3 / assignment / Planar Data Classification with One Hidden Layer -> success
+- [2026-10-10T04:30:57+08:00] neural-networks-deep-learning / week-4 / assignment / Deep Neural Network - Application -> success
+- [2026-10-10T04:37:18+08:00] deep-neural-network / week-1 / assignment / Initialization -> success
